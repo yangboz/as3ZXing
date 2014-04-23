@@ -25,7 +25,6 @@ package com.google.zxing
     {
     	import com.google.zxing.common.ByteMatrix;
     	import com.google.zxing.common.flexdatatypes.HashTable;
-    	
 	  /**
 	   *
 	   * @param contents The contents to encode in the barcode
