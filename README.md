@@ -5,8 +5,16 @@ AS3 port for ZXing. ZXing ("zebra crossing") is an open-source, multi-format 1D/
 
 <b>ZXing</b> hub: https://github.com/zxing/zxing
 
-ASDOC
-===========================
+* Gist
+
+
+* Maven repository
+
+
+* ASDOC
+
+http://htmlpreview.github.io/?https://github.com/yangboz/as3ZXing/blob/master/target/asdoc/index.html
+
 
 Modifications
 =============
