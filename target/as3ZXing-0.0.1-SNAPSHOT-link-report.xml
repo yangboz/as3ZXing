@@ -1,0 +1,2029 @@
+<report>
+  <scripts>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\rss\expanded\BitArrayBuilder.as" mod="1398097633324" size="1325" optimizedsize="741">
+      <def id="com.google.zxing.oned.rss.expanded:BitArrayBuilder" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.oned.rss.expanded:ExpandedPair" />
+      <dep id="com.google.zxing.common:BitArray" />
+      <dep id="com.google.zxing.common.flexdatatypes:ArrayList" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\rss\FinderPattern.as" mod="1398097633320" size="1002" optimizedsize="467">
+      <def id="com.google.zxing.oned.rss:FinderPattern" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:ResultPoint" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\EAN13Writer.as" mod="1398097633277" size="2012" optimizedsize="1350">
+      <def id="com.google.zxing.oned:EAN13Writer" />
+      <pre id="com.google.zxing.oned:UPCEANWriter" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing.oned:UPCEANReader" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.oned:EAN13Reader" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\decoder\DataMask010.as" mod="1398097633428" size="562" optimizedsize="282">
+      <def id="com.google.zxing.qrcode.decoder:DataMask010" />
+      <pre id="com.google.zxing.qrcode.decoder:DataMaskBase" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\rss\expanded\decoders\DecodedNumeric.as" mod="1398097633381" size="1689" optimizedsize="781">
+      <def id="com.google.zxing.oned.rss.expanded.decoders:DecodedNumeric" />
+      <pre id="com.google.zxing.oned.rss.expanded.decoders:DecodedObject" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\rss\RSS14Reader.as" mod="1398097633323" size="8817" optimizedsize="5234">
+      <def id="com.google.zxing.oned.rss:RSS14Reader" />
+      <pre id="com.google.zxing.oned.rss:AbstractRSSReader" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="com.google.zxing:NotFoundException" />
+      <dep id="com.google.zxing:DecodeHintType" />
+      <dep id="com.google.zxing:ResultPointCallback" />
+      <dep id="com.google.zxing.common:BitArray" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+      <dep id="com.google.zxing:ResultPoint" />
+      <dep id="com.google.zxing.oned.rss:Pair" />
+      <dep id="com.google.zxing.oned.rss:RSSUtils" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+      <dep id="com.google.zxing.oned.rss:FinderPattern" />
+      <dep id="com.google.zxing.oned.rss:DataCharacter" />
+      <dep id="com.google.zxing.common.flexdatatypes:ArrayList" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\common\flexdatatypes\Enumeration.as" mod="1398097633196" size="1059" optimizedsize="482">
+      <def id="com.google.zxing.common.flexdatatypes:Enumeration" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\pdf417\PDF417Reader.as" mod="1398097633383" size="3146" optimizedsize="1793">
+      <def id="com.google.zxing.pdf417:PDF417Reader" />
+      <pre id="com.google.zxing:Reader" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="com.google.zxing.pdf417.decoder:Decoder" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:NotFoundException" />
+      <dep id="com.google.zxing:BinaryBitmap" />
+      <dep id="com.google.zxing:DecodeHintType" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+      <dep id="com.google.zxing.common:DetectorResult" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+      <dep id="com.google.zxing.common:DecoderResult" />
+      <dep id="com.google.zxing.pdf417.detector:Detector" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\ProductResultParser.as" mod="1398097633150" size="1180" optimizedsize="704">
+      <def id="com.google.zxing.client.result:ProductResultParser" />
+      <pre id="com.google.zxing.client.result:ResultParser" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.client.result:ProductParsedResult" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+      <dep id="com.google.zxing.oned:UPCEReader" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\datamatrix\decoder\ECB.as" mod="1398097633262" size="724" optimizedsize="327">
+      <def id="com.google.zxing.datamatrix.decoder:ECB" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\rss\expanded\decoders\AI013x0x1xDecoder.as" mod="1398097633375" size="2443" optimizedsize="1440">
+      <def id="com.google.zxing.oned.rss.expanded.decoders:AI013x0x1xDecoder" />
+      <pre id="com.google.zxing.oned.rss.expanded.decoders:AI01weightDecoder" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:NotFoundException" />
+      <dep id="com.google.zxing.common:BitArray" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\rss\expanded\decoders\AbstractExpandedDecoder.as" mod="1398097633378" size="1896" optimizedsize="1196">
+      <def id="com.google.zxing.oned.rss.expanded.decoders:AbstractExpandedDecoder" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.oned.rss.expanded.decoders:AnyAIDecoder" />
+      <dep id="com.google.zxing.oned.rss.expanded.decoders:AI013x0x1xDecoder" />
+      <dep id="com.google.zxing.oned.rss.expanded.decoders:AI01320xDecoder" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.oned.rss.expanded.decoders:AI01AndOtherAIs" />
+      <dep id="com.google.zxing.oned.rss.expanded.decoders:AI01392xDecoder" />
+      <dep id="com.google.zxing.oned.rss.expanded.decoders:AI01393xDecoder" />
+      <dep id="com.google.zxing.common:BitArray" />
+      <dep id="Error" />
+      <dep id="com.google.zxing.oned.rss.expanded.decoders:AI013103decoder" />
+      <dep id="com.google.zxing.oned.rss.expanded.decoders:GeneralAppIdDecoder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\AddressBookDocomoResultParser.as" mod="1398097633127" size="1633" optimizedsize="963">
+      <def id="com.google.zxing.client.result:AddressBookDocomoResultParser" />
+      <pre id="com.google.zxing.client.result:ResultParser" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="com.google.zxing.client.result:AddressBookParsedResult" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common.flexdatatypes:ArrayList" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\aztec\AztecDetectorResult.as" mod="1398097633122" size="1018" optimizedsize="480">
+      <def id="com.google.zxing.aztec:AztecDetectorResult" />
+      <pre id="com.google.zxing.common:DetectorResult" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\multi\qrcode\QRCodeMultiReader.as" mod="1398097633270" size="1854" optimizedsize="1320">
+      <def id="com.google.zxing.multi.qrcode:QRCodeMultiReader" />
+      <pre id="com.google.zxing.multi:MultipleBarcodeReader" />
+      <pre id="com.google.zxing.qrcode:QRCodeReader" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing:ReaderException" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="com.google.zxing.multi.qrcode.detector:MultiDetector" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:ResultMetadataType" />
+      <dep id="com.google.zxing:BinaryBitmap" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+      <dep id="com.google.zxing.common:DecoderResult" />
+      <dep id="com.google.zxing.common.flexdatatypes:ArrayList" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\ProductParsedResult.as" mod="1398097633150" size="1038" optimizedsize="480">
+      <def id="com.google.zxing.client.result:ProductParsedResult" />
+      <pre id="com.google.zxing.client.result:ParsedResult" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.client.result:ParsedResultType" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\optional\NDEFTextResultParser.as" mod="1398097633183" size="1633" optimizedsize="981">
+      <def id="com.google.zxing.client.result.optional:NDEFTextResultParser" />
+      <pre id="com.google.zxing.client.result.optional:AbstractNDEFResultParser" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.client.result:TextParsedResult" />
+      <dep id="com.google.zxing.client.result.optional:NDEFRecord" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\pdf417\decoder\Decoder.as" mod="1398231751510" size="2398" optimizedsize="1397">
+      <def id="com.google.zxing.pdf417.decoder:Decoder" />
+      <pre id="Object" />
+      <dep id="com.google.zxing:ReaderException" />
+      <dep id="com.google.zxing.pdf417.decoder:DecodedBitStreamParser" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+      <dep id="com.google.zxing.pdf417.decoder:BitMatrixParser" />
+      <dep id="com.google.zxing.common:DecoderResult" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\Code39Reader.as" mod="1398097633275" size="5703" optimizedsize="3664">
+      <def id="com.google.zxing.oned:Code39Reader" />
+      <pre id="com.google.zxing.oned:OneDReader" />
+      <dep id="com.google.zxing:ReaderException" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="AS3" />
+      <dep id="Math" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+      <dep id="com.google.zxing.common:BitArray" />
+      <dep id="com.google.zxing:ResultPoint" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\pdf417\encoder\PDF417Writer.as" mod="1398097633422" size="2154" optimizedsize="1210">
+      <def id="com.google.zxing.pdf417.encoder:PDF417Writer" />
+      <pre id="com.google.zxing:Writer" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+      <dep id="com.google.zxing.pdf417.encoder:PDF417" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\detector\ClosestToAverageComparator.as" mod="1398097633464" size="879" optimizedsize="462">
+      <def id="com.google.zxing.qrcode.detector:ClosestToAverageComparator" />
+      <pre id="com.google.zxing.common:Comparator" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.qrcode.detector:FinderPattern" />
+      <dep id="Math" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\optional\MobileTagMMSResultParser.as" mod="1398097633178" size="1369" optimizedsize="870">
+      <def id="com.google.zxing.client.result.optional:MobileTagMMSResultParser" />
+      <pre id="com.google.zxing.client.result.optional:AbstractMobileTagResultParser" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.client.result:SMSParsedResult" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\rss\expanded\decoders\AI01393xDecoder.as" mod="1398097633375" size="1693" optimizedsize="1128">
+      <def id="com.google.zxing.oned.rss.expanded.decoders:AI01393xDecoder" />
+      <pre id="com.google.zxing.oned.rss.expanded.decoders:AI01decoder" />
+      <dep id="com.google.zxing.oned.rss.expanded.decoders:DecodedInformation" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:NotFoundException" />
+      <dep id="com.google.zxing.common:BitArray" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\encoder\MatrixUtil.as" mod="1398097633472" size="9168" optimizedsize="5215">
+      <def id="com.google.zxing.qrcode.encoder:MatrixUtil" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common:ByteMatrix" />
+      <dep id="com.google.zxing:WriterException" />
+      <dep id="com.google.zxing.qrcode.encoder:QRCode" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.qrcode.encoder:MaskUtil" />
+      <dep id="com.google.zxing.qrcode.decoder:ErrorCorrectionLevel" />
+      <dep id="Error" />
+      <dep id="com.google.zxing.qrcode.encoder:BitVector" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\datamatrix\decoder\DecodedBitStreamParser.as" mod="1398097633260" size="7903" optimizedsize="4786">
+      <def id="com.google.zxing.datamatrix.decoder:DecodedBitStreamParser" />
+      <pre id="Object" />
+      <dep id="com.google.zxing:ReaderException" />
+      <dep id="com.google.zxing:FormatException" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common:BitSource" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+      <dep id="com.google.zxing.common.flexdatatypes:ArrayList" />
+      <dep id="com.google.zxing.common:DecoderResult" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\rss\expanded\decoders\AI01weightDecoder.as" mod="1398097633377" size="1540" optimizedsize="755">
+      <def id="com.google.zxing.oned.rss.expanded.decoders:AI01weightDecoder" />
+      <pre id="com.google.zxing.oned.rss.expanded.decoders:AI01decoder" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common:BitArray" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\Writer.as" mod="1398239351747" size="504" optimizedsize="262">
+      <def id="com.google.zxing:Writer" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\common\CharacterSetECI.as" mod="1398097633188" size="2269" optimizedsize="1365">
+      <def id="com.google.zxing.common:CharacterSetECI" />
+      <pre id="com.google.zxing.common:ECI" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\EAN8Writer.as" mod="1398097633279" size="1760" optimizedsize="1142">
+      <def id="com.google.zxing.oned:EAN8Writer" />
+      <pre id="com.google.zxing.oned:UPCEANWriter" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing.oned:UPCEANReader" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\pdf417\encoder\BarcodeRow.as" mod="1398097633388" size="1443" optimizedsize="696">
+      <def id="com.google.zxing.pdf417.encoder:BarcodeRow" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\CalendarParsedResult.as" mod="1398097633129" size="2332" optimizedsize="1172">
+      <def id="com.google.zxing.client.result:CalendarParsedResult" />
+      <pre id="com.google.zxing.client.result:ParsedResult" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="com.google.zxing.common.flexdatatypes:Utils" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+      <dep id="com.google.zxing.client.result:ParsedResultType" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\decoder\DataMask011.as" mod="1398097633428" size="564" optimizedsize="284">
+      <def id="com.google.zxing.qrcode.decoder:DataMask011" />
+      <pre id="com.google.zxing.qrcode.decoder:DataMaskBase" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\rss\expanded\decoders\AI01320xDecoder.as" mod="1398097633346" size="1122" optimizedsize="582">
+      <def id="com.google.zxing.oned.rss.expanded.decoders:AI01320xDecoder" />
+      <pre id="com.google.zxing.oned.rss.expanded.decoders:AI013x0xDecoder" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common:BitArray" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\detector\CenterComparator.as" mod="1398097633463" size="982" optimizedsize="518">
+      <def id="com.google.zxing.qrcode.detector:CenterComparator" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.qrcode.detector:FinderPattern" />
+      <dep id="Math" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\common\flexdatatypes\IllegalArgumentException.as" mod="1398097633216" size="575" optimizedsize="273">
+      <def id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <pre id="Error" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\Code128Reader.as" mod="1398097633274" size="7439" optimizedsize="5150">
+      <def id="com.google.zxing.oned:Code128Reader" />
+      <pre id="com.google.zxing.oned:OneDReader" />
+      <dep id="com.google.zxing:ReaderException" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="AS3" />
+      <dep id="Math" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+      <dep id="com.google.zxing.common:BitArray" />
+      <dep id="com.google.zxing:ResultPoint" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\optional\MobileTagRichWebParsedResult.as" mod="1398097633179" size="1519" optimizedsize="640">
+      <def id="com.google.zxing.client.result.optional:MobileTagRichWebParsedResult" />
+      <pre id="com.google.zxing.client.result:ParsedResult" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.client.result:ParsedResultType" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\decoder\FormatInformation.as" mod="1398097633435" size="2798" optimizedsize="1488">
+      <def id="com.google.zxing.qrcode.decoder:FormatInformation" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.qrcode.decoder:ErrorCorrectionLevel" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\EmailAddressResultParser.as" mod="1398232741345" size="1278" optimizedsize="834">
+      <def id="com.google.zxing.client.result:EmailAddressResultParser" />
+      <pre id="com.google.zxing.client.result:ResultParser" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="com.google.zxing.client.result:EmailAddressParsedResult" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.client.result:EmailDoCoMoResultParser" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\common\zxingByteArray.as" mod="1398231756951" size="2086" optimizedsize="1052">
+      <def id="com.google.zxing.common:zxingByteArray" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="Math" />
+      <dep id="Error" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\maxicode\decoder\DecodedBitStreamParser.as" mod="1398097633267" size="5575" optimizedsize="3420">
+      <def id="com.google.zxing.maxicode.decoder:DecodedBitStreamParser" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+      <dep id="com.google.zxing.common:DecoderResult" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\common\flexdatatypes\HashTable.as" mod="1398097633215" size="3138" optimizedsize="1440">
+      <def id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common.flexdatatypes:ArrayList" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\pdf417\detector\Detector.as" mod="1398097633387" size="6895" optimizedsize="3860">
+      <def id="com.google.zxing.pdf417.detector:Detector" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing:ReaderException" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:BinaryBitmap" />
+      <dep id="Math" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+      <dep id="com.google.zxing.common:DetectorResult" />
+      <dep id="com.google.zxing:ResultPoint" />
+      <dep id="com.google.zxing.common:GridSampler" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\datamatrix\detector\Detector.as" mod="1398097633264" size="6208" optimizedsize="3497">
+      <def id="com.google.zxing.datamatrix.detector:Detector" />
+      <pre id="Object" />
+      <dep id="com.google.zxing:ReaderException" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="AS3" />
+      <dep id="Math" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+      <dep id="com.google.zxing.common:DetectorResult" />
+      <dep id="com.google.zxing.common.detector:WhiteRectangleDetector" />
+      <dep id="com.google.zxing:ResultPoint" />
+      <dep id="com.google.zxing.common.flexdatatypes:ArrayList" />
+      <dep id="com.google.zxing.common:GridSampler" />
+      <dep id="com.google.zxing.datamatrix.detector:ResultPointsAndTransitions" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\datamatrix\decoder\BitMatrixParser.as" mod="1398097633253" size="6183" optimizedsize="3495">
+      <def id="com.google.zxing.datamatrix.decoder:BitMatrixParser" />
+      <pre id="Object" />
+      <dep id="com.google.zxing:ReaderException" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="com.google.zxing.datamatrix.decoder:Version" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\UPCEANReader.as" mod="1398097633317" size="5995" optimizedsize="3555">
+      <def id="com.google.zxing.oned:UPCEANReader" />
+      <pre id="com.google.zxing.oned:OneDReader" />
+      <dep id="com.google.zxing:ReaderException" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:ResultMetadataType" />
+      <dep id="com.google.zxing.oned:UPCEANExtensionSupport" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+      <dep id="com.google.zxing.oned:EANManufacturerOrgSupport" />
+      <dep id="com.google.zxing.common:BitArray" />
+      <dep id="Error" />
+      <dep id="com.google.zxing:ResultPoint" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\maxicode\decoder\Decoder.as" mod="1398097633267" size="2330" optimizedsize="1633">
+      <def id="com.google.zxing.maxicode.decoder:Decoder" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing:FormatException" />
+      <dep id="com.google.zxing.common.reedsolomon:ReedSolomonException" />
+      <dep id="com.google.zxing.maxicode.decoder:DecodedBitStreamParser" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:ChecksumException" />
+      <dep id="com.google.zxing.maxicode.decoder:BitMatrixParser" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+      <dep id="com.google.zxing.common.reedsolomon:ReedSolomonDecoder" />
+      <dep id="com.google.zxing.common:DecoderResult" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\FormatException.as" mod="1398097633115" size="586" optimizedsize="281">
+      <def id="com.google.zxing:FormatException" />
+      <pre id="com.google.zxing:ReaderException" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\rss\expanded\decoders\DecodedObject.as" mod="1398097633381" size="688" optimizedsize="312">
+      <def id="com.google.zxing.oned.rss.expanded.decoders:DecodedObject" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\rss\expanded\decoders\AI013103decoder.as" mod="1398097633346" size="1074" optimizedsize="543">
+      <def id="com.google.zxing.oned.rss.expanded.decoders:AI013103decoder" />
+      <pre id="com.google.zxing.oned.rss.expanded.decoders:AI013x0xDecoder" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common:BitArray" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\optional\MobileTagSMSResultParser.as" mod="1398097633180" size="1386" optimizedsize="900">
+      <def id="com.google.zxing.client.result.optional:MobileTagSMSResultParser" />
+      <pre id="com.google.zxing.client.result.optional:AbstractMobileTagResultParser" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="com.google.zxing.common.flexdatatypes:Utils" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.client.result:SMSParsedResult" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\ISBNParsedResult.as" mod="1398097633131" size="786" optimizedsize="364">
+      <def id="com.google.zxing.client.result:ISBNParsedResult" />
+      <pre id="com.google.zxing.client.result:ParsedResult" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.client.result:ParsedResultType" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\ISBNResultParser.as" mod="1398097633132" size="925" optimizedsize="532">
+      <def id="com.google.zxing.client.result:ISBNResultParser" />
+      <pre id="com.google.zxing.client.result:ResultParser" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="com.google.zxing.common.flexdatatypes:Utils" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+      <dep id="com.google.zxing.client.result:ISBNParsedResult" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\common\reedsolomon\ReedSolomonException.as" mod="1398097633233" size="541" optimizedsize="255">
+      <def id="com.google.zxing.common.reedsolomon:ReedSolomonException" />
+      <pre id="Error" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\decoder\DataMask100.as" mod="1398097633429" size="570" optimizedsize="290">
+      <def id="com.google.zxing.qrcode.decoder:DataMask100" />
+      <pre id="com.google.zxing.qrcode.decoder:DataMaskBase" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\common\BitArray.as" mod="1398097633185" size="4461" optimizedsize="2180">
+      <def id="com.google.zxing.common:BitArray" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\ResultPointCallback.as" mod="1398097633120" size="509" optimizedsize="218">
+      <def id="com.google.zxing:ResultPointCallback" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:ResultPoint" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\detector\FurthestFromAverageComparator.as" mod="1398097633467" size="996" optimizedsize="487">
+      <def id="com.google.zxing.qrcode.detector:FurthestFromAverageComparator" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.qrcode.detector:FinderPattern" />
+      <dep id="Math" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\multi\GenericMultipleBarcodeReader.as" mod="1398097633269" size="3137" optimizedsize="2158">
+      <def id="com.google.zxing.multi:GenericMultipleBarcodeReader" />
+      <pre id="com.google.zxing.multi:MultipleBarcodeReader" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing:ReaderException" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:BinaryBitmap" />
+      <dep id="com.google.zxing:Reader" />
+      <dep id="com.google.zxing:ResultPoint" />
+      <dep id="com.google.zxing.common.flexdatatypes:ArrayList" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\aztec\AztecReader.as" mod="1398097633123" size="1641" optimizedsize="1176">
+      <def id="com.google.zxing.aztec:AztecReader" />
+      <pre id="com.google.zxing:Reader" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing.aztec:AztecDetectorResult" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="com.google.zxing.aztec.detector:Detector" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:ResultMetadataType" />
+      <dep id="com.google.zxing:BinaryBitmap" />
+      <dep id="com.google.zxing:DecodeHintType" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+      <dep id="com.google.zxing:ResultPointCallback" />
+      <dep id="com.google.zxing.aztec.decoder:Decoder" />
+      <dep id="com.google.zxing.common:DecoderResult" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\detector\AlignmentPatternFinder.as" mod="1398097633439" size="4169" optimizedsize="2454">
+      <def id="com.google.zxing.qrcode.detector:AlignmentPatternFinder" />
+      <pre id="Object" />
+      <dep id="com.google.zxing:ReaderException" />
+      <dep id="AS3" />
+      <dep id="Math" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+      <dep id="com.google.zxing:ResultPointCallback" />
+      <dep id="com.google.zxing.qrcode.detector:AlignmentPattern" />
+      <dep id="com.google.zxing:ResultPoint" />
+      <dep id="com.google.zxing.common.flexdatatypes:ArrayList" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\rss\expanded\decoders\AI01392xDecoder.as" mod="1398097633347" size="1518" optimizedsize="1015">
+      <def id="com.google.zxing.oned.rss.expanded.decoders:AI01392xDecoder" />
+      <pre id="com.google.zxing.oned.rss.expanded.decoders:AI01decoder" />
+      <dep id="com.google.zxing.oned.rss.expanded.decoders:DecodedInformation" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:NotFoundException" />
+      <dep id="com.google.zxing.common:BitArray" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\QRCodeWriter.as" mod="1398097633423" size="2292" optimizedsize="1386">
+      <def id="com.google.zxing.qrcode:QRCodeWriter" />
+      <pre id="com.google.zxing:Writer" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing.common:ByteMatrix" />
+      <dep id="com.google.zxing.qrcode.encoder:QRCode" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:EncodeHintType" />
+      <dep id="Math" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+      <dep id="com.google.zxing.qrcode.encoder:Encoder" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+      <dep id="com.google.zxing.qrcode.decoder:ErrorCorrectionLevel" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\optional\MobileTagSimpleWebResultParser.as" mod="1398097633181" size="1701" optimizedsize="1120">
+      <def id="com.google.zxing.client.result.optional:MobileTagSimpleWebResultParser" />
+      <pre id="com.google.zxing.client.result.optional:AbstractMobileTagResultParser" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="com.google.zxing.common.flexdatatypes:Utils" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+      <dep id="com.google.zxing.client.result:URIParsedResult" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\decoder\DataMask101.as" mod="1398097633430" size="584" optimizedsize="292">
+      <def id="com.google.zxing.qrcode.decoder:DataMask101" />
+      <pre id="com.google.zxing.qrcode.decoder:DataMaskBase" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\TelResultParser.as" mod="1398097633153" size="986" optimizedsize="580">
+      <def id="com.google.zxing.client.result:TelResultParser" />
+      <pre id="com.google.zxing.client.result:ResultParser" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="com.google.zxing.common.flexdatatypes:Utils" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.client.result:TelParsedResult" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\EAN8Reader.as" mod="1398097633278" size="1684" optimizedsize="1055">
+      <def id="com.google.zxing.oned:EAN8Reader" />
+      <pre id="com.google.zxing.oned:UPCEANReader" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+      <dep id="com.google.zxing.common:BitArray" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\ClassImportor.as" mod="1398242354736" size="385" optimizedsize="173">
+      <def id="com.google.zxing:ClassImportor" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:MultiFormatWriter" />
+      <dep id="com.google.zxing.qrcode:QRCodeWriter" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\URIResultParser.as" mod="1398097633154" size="1143" optimizedsize="664">
+      <def id="com.google.zxing.client.result:URIResultParser" />
+      <pre id="com.google.zxing.client.result:ResultParser" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="com.google.zxing.common.flexdatatypes:Utils" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.client.result:URIParsedResult" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\Code39Writer.as" mod="1398097633276" size="1802" optimizedsize="1168">
+      <def id="com.google.zxing.oned:Code39Writer" />
+      <pre id="com.google.zxing.oned:UPCEANWriter" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing.oned:Code39Reader" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\CodaBarReader.as" mod="1398097633273" size="3863" optimizedsize="2320">
+      <def id="com.google.zxing.oned:CodaBarReader" />
+      <pre id="com.google.zxing.oned:OneDReader" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:NotFoundException" />
+      <dep id="Math" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+      <dep id="com.google.zxing.common:BitArray" />
+      <dep id="com.google.zxing:ResultPoint" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\multi\MultipleBarcodeReader.as" mod="1398097633269" size="626" optimizedsize="302">
+      <def id="com.google.zxing.multi:MultipleBarcodeReader" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:BinaryBitmap" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\common\BitSource.as" mod="1398097633187" size="1469" optimizedsize="831">
+      <def id="com.google.zxing.common:BitSource" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\datamatrix\decoder\ECBlocks.as" mod="1398097633262" size="821" optimizedsize="378">
+      <def id="com.google.zxing.datamatrix.decoder:ECBlocks" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.datamatrix.decoder:ECB" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\testClass.as" mod="1398097633185" size="56833" optimizedsize="51317">
+      <def id="com.google.zxing.client:testClass" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\MultiFormatReader.as" mod="1398097633116" size="3000" optimizedsize="2109">
+      <def id="com.google.zxing:MultiFormatReader" />
+      <pre id="com.google.zxing:Reader" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="com.google.zxing.aztec:AztecReader" />
+      <dep id="com.google.zxing.datamatrix:DataMatrixReader" />
+      <dep id="com.google.zxing.pdf417:PDF417Reader" />
+      <dep id="com.google.zxing:DecodeHintType" />
+      <dep id="com.google.zxing.maxicode:MaxiCodeReader" />
+      <dep id="com.google.zxing.oned:MultiFormatOneDReader" />
+      <dep id="com.google.zxing.qrcode:QRCodeReader" />
+      <dep id="Error" />
+      <dep id="com.google.zxing:ReaderException" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:BinaryBitmap" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+      <dep id="com.google.zxing.common.flexdatatypes:ArrayList" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\encoder\BitVector.as" mod="1398097633468" size="2913" optimizedsize="1518">
+      <def id="com.google.zxing.qrcode.encoder:BitVector" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\MultiFormatUPCEANReader.as" mod="1398097633282" size="1999" optimizedsize="1486">
+      <def id="com.google.zxing.oned:MultiFormatUPCEANReader" />
+      <pre id="com.google.zxing.oned:OneDReader" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing.oned:UPCAReader" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="com.google.zxing:DecodeHintType" />
+      <dep id="com.google.zxing.oned:UPCEReader" />
+      <dep id="com.google.zxing.common:BitArray" />
+      <dep id="com.google.zxing:ReaderException" />
+      <dep id="com.google.zxing.oned:UPCEANReader" />
+      <dep id="com.google.zxing.oned:EAN8Reader" />
+      <dep id="com.google.zxing.oned:EAN13Reader" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+      <dep id="com.google.zxing.common.flexdatatypes:ArrayList" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\EmailAddressParsedResult.as" mod="1398097633129" size="1494" optimizedsize="695">
+      <def id="com.google.zxing.client.result:EmailAddressParsedResult" />
+      <pre id="com.google.zxing.client.result:ParsedResult" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+      <dep id="com.google.zxing.client.result:ParsedResultType" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\encoder\QRCode.as" mod="1398097633472" size="4605" optimizedsize="2233">
+      <def id="com.google.zxing.qrcode.encoder:QRCode" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common:ByteMatrix" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.qrcode.decoder:Mode" />
+      <dep id="com.google.zxing.qrcode.decoder:ErrorCorrectionLevel" />
+      <dep id="Error" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\encoder\BlockPair.as" mod="1398097633469" size="824" optimizedsize="383">
+      <def id="com.google.zxing.qrcode.encoder:BlockPair" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common:zxingByteArray" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\maxicode\MaxiCodeReader.as" mod="1398097633265" size="2156" optimizedsize="1332">
+      <def id="com.google.zxing.maxicode:MaxiCodeReader" />
+      <pre id="com.google.zxing:Reader" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:ResultMetadataType" />
+      <dep id="com.google.zxing:NotFoundException" />
+      <dep id="com.google.zxing:BinaryBitmap" />
+      <dep id="com.google.zxing:DecodeHintType" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+      <dep id="com.google.zxing.maxicode.decoder:Decoder" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+      <dep id="com.google.zxing.common:DecoderResult" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\optional\NDEFURIResultParser.as" mod="1398097633183" size="1976" optimizedsize="1362">
+      <def id="com.google.zxing.client.result.optional:NDEFURIResultParser" />
+      <pre id="com.google.zxing.client.result.optional:AbstractNDEFResultParser" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.client.result.optional:NDEFRecord" />
+      <dep id="com.google.zxing.client.result:URIParsedResult" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\URIParsedResult.as" mod="1398097633153" size="2140" optimizedsize="1081">
+      <def id="com.google.zxing.client.result:URIParsedResult" />
+      <pre id="com.google.zxing.client.result:ParsedResult" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+      <dep id="com.google.zxing.client.result:ParsedResultType" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\multi\qrcode\detector\MultiDetector.as" mod="1398097633271" size="1562" optimizedsize="1037">
+      <def id="com.google.zxing.multi.qrcode.detector:MultiDetector" />
+      <pre id="com.google.zxing.qrcode.detector:Detector" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing:ReaderException" />
+      <dep id="com.google.zxing.multi.qrcode.detector:MultiFinderPatternFinder" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+      <dep id="com.google.zxing.common:DetectorResult" />
+      <dep id="com.google.zxing.common.flexdatatypes:ArrayList" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\rss\expanded\decoders\FieldParser.as" mod="1398097633382" size="4661" optimizedsize="3314">
+      <def id="com.google.zxing.oned.rss.expanded.decoders:FieldParser" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:NotFoundException" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\UPCAWriter.as" mod="1398097633284" size="1222" optimizedsize="786">
+      <def id="com.google.zxing.oned:UPCAWriter" />
+      <pre id="com.google.zxing:Writer" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="com.google.zxing.oned:EAN13Writer" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\decoder\ErrorCorrectionLevel.as" mod="1398097633435" size="1671" optimizedsize="828">
+      <def id="com.google.zxing.qrcode.decoder:ErrorCorrectionLevel" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\datamatrix\detector\ResultPointsAndTransitionsComparator.as" mod="1398097633265" size="801" optimizedsize="385">
+      <def id="com.google.zxing.datamatrix.detector:ResultPointsAndTransitionsComparator" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.datamatrix.detector:ResultPointsAndTransitions" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\rss\expanded\decoders\CurrentParsingState.as" mod="1398097633379" size="1539" optimizedsize="611">
+      <def id="com.google.zxing.oned.rss.expanded.decoders:CurrentParsingState" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\common\GlobalHistogramBinarizer.as" mod="1398097633191" size="3605" optimizedsize="1900">
+      <def id="com.google.zxing.common:GlobalHistogramBinarizer" />
+      <pre id="com.google.zxing:Binarizer" />
+      <dep id="com.google.zxing:ReaderException" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:LuminanceSource" />
+      <dep id="Math" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+      <dep id="com.google.zxing.common:BitArray" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\LuminanceSource.as" mod="1398243217620" size="2004" optimizedsize="1013">
+      <def id="com.google.zxing:LuminanceSource" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="Error" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\ITFReader.as" mod="1398097633280" size="5161" optimizedsize="3123">
+      <def id="com.google.zxing.oned:ITFReader" />
+      <pre id="com.google.zxing.oned:OneDReader" />
+      <dep id="com.google.zxing:ReaderException" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:DecodeHintType" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+      <dep id="com.google.zxing.common:BitArray" />
+      <dep id="com.google.zxing:ResultPoint" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\rss\expanded\decoders\AnyAIDecoder.as" mod="1398097633378" size="982" optimizedsize="580">
+      <def id="com.google.zxing.oned.rss.expanded.decoders:AnyAIDecoder" />
+      <pre id="com.google.zxing.oned.rss.expanded.decoders:AbstractExpandedDecoder" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common:BitArray" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\decoder\DataBlock.as" mod="1398097633425" size="2257" optimizedsize="1213">
+      <def id="com.google.zxing.qrcode.decoder:DataBlock" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common:zxingByteArray" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.qrcode.decoder:Version" />
+      <dep id="com.google.zxing.qrcode.decoder:ECBlocks" />
+      <dep id="com.google.zxing.qrcode.decoder:ErrorCorrectionLevel" />
+      <dep id="Error" />
+      <dep id="com.google.zxing.qrcode.decoder:ECB" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\TelParsedResult.as" mod="1398097633152" size="1207" optimizedsize="584">
+      <def id="com.google.zxing.client.result:TelParsedResult" />
+      <pre id="com.google.zxing.client.result:ParsedResult" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+      <dep id="com.google.zxing.client.result:ParsedResultType" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\Code128Writer.as" mod="1398097633274" size="3356" optimizedsize="2130">
+      <def id="com.google.zxing.oned:Code128Writer" />
+      <pre id="com.google.zxing.oned:UPCEANWriter" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.oned:Code128Reader" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+      <dep id="com.google.zxing.common.flexdatatypes:ArrayList" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\Code93Reader.as" mod="1398097633276" size="4908" optimizedsize="2961">
+      <def id="com.google.zxing.oned:Code93Reader" />
+      <pre id="com.google.zxing.oned:OneDReader" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="com.google.zxing:FormatException" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:NotFoundException" />
+      <dep id="com.google.zxing:ChecksumException" />
+      <dep id="Math" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+      <dep id="com.google.zxing.common:BitArray" />
+      <dep id="com.google.zxing:ResultPoint" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\WriterException.as" mod="1398097633121" size="443" optimizedsize="210">
+      <def id="com.google.zxing:WriterException" />
+      <pre id="Error" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\common\DecoderResult.as" mod="1398231746517" size="1216" optimizedsize="641">
+      <def id="com.google.zxing.common:DecoderResult" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common.flexdatatypes:ArrayList" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\common\GridSampler.as" mod="1398097633192" size="3334" optimizedsize="2108">
+      <def id="com.google.zxing.common:GridSampler" />
+      <pre id="Object" />
+      <dep id="com.google.zxing:ReaderException" />
+      <dep id="RangeError" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:NotFoundException" />
+      <dep id="com.google.zxing.common:PerspectiveTransform" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\EmailDoCoMoResultParser.as" mod="1398097633130" size="1996" optimizedsize="1240">
+      <def id="com.google.zxing.client.result:EmailDoCoMoResultParser" />
+      <pre id="com.google.zxing.client.result:AbstractDoCoMoResultParser" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="com.google.zxing.client.result:EmailAddressParsedResult" />
+      <dep id="com.google.zxing.common.flexdatatypes:Utils" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\BookmarkDoCoMoResultParser.as" mod="1398097633128" size="1254" optimizedsize="774">
+      <def id="com.google.zxing.client.result:BookmarkDoCoMoResultParser" />
+      <pre id="com.google.zxing.client.result:AbstractDoCoMoResultParser" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.client.result:URIResultParser" />
+      <dep id="com.google.zxing.client.result:URIParsedResult" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\NotFoundException.as" mod="1398097633117" size="606" optimizedsize="292">
+      <def id="com.google.zxing:NotFoundException" />
+      <pre id="com.google.zxing:ReaderException" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\rss\RSSUtils.as" mod="1398097633324" size="2626" optimizedsize="1476">
+      <def id="com.google.zxing.oned.rss:RSSUtils" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\decoder\DataMaskBase.as" mod="1398097633431" size="826" optimizedsize="409">
+      <def id="com.google.zxing.qrcode.decoder:DataMaskBase" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\rss\AbstractRSSReader.as" mod="1398097633319" size="2756" optimizedsize="1560">
+      <def id="com.google.zxing.oned.rss:AbstractRSSReader" />
+      <pre id="com.google.zxing.oned:OneDReader" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:NotFoundException" />
+      <dep id="Math" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\detector\AlignmentPattern.as" mod="1398097633438" size="1156" optimizedsize="538">
+      <def id="com.google.zxing.qrcode.detector:AlignmentPattern" />
+      <pre id="com.google.zxing:ResultPoint" />
+      <dep id="AS3" />
+      <dep id="Math" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\encoder\Encoder.as" mod="1398097633470" size="11533" optimizedsize="7074">
+      <def id="com.google.zxing.qrcode.encoder:Encoder" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing.common:ByteMatrix" />
+      <dep id="com.google.zxing.common:zxingByteArray" />
+      <dep id="com.google.zxing.qrcode.encoder:QRCode" />
+      <dep id="com.google.zxing:WriterException" />
+      <dep id="com.google.zxing.common.reedsolomon:GenericGF" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="com.google.zxing:EncodeHintType" />
+      <dep id="com.google.zxing.qrcode.encoder:MatrixUtil" />
+      <dep id="com.google.zxing.qrcode.encoder:MaskUtil" />
+      <dep id="com.google.zxing.common:CharacterSetECI" />
+      <dep id="Math" />
+      <dep id="com.google.zxing.qrcode.decoder:Mode" />
+      <dep id="com.google.zxing.qrcode.decoder:ECBlocks" />
+      <dep id="com.google.zxing.qrcode.encoder:BlockPair" />
+      <dep id="Error" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.qrcode.decoder:Version" />
+      <dep id="com.google.zxing.common.reedsolomon:ReedSolomonEncoder" />
+      <dep id="com.google.zxing.qrcode.decoder:ErrorCorrectionLevel" />
+      <dep id="com.google.zxing.qrcode.encoder:BitVector" />
+      <dep id="com.google.zxing.common.flexdatatypes:ArrayList" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\optional\MobileTagRichWebResultParser.as" mod="1398097633179" size="1418" optimizedsize="917">
+      <def id="com.google.zxing.client.result.optional:MobileTagRichWebResultParser" />
+      <pre id="com.google.zxing.client.result.optional:AbstractMobileTagResultParser" />
+      <dep id="com.google.zxing.client.result.optional:MobileTagRichWebParsedResult" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="com.google.zxing.common.flexdatatypes:Utils" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\datamatrix\DataMatrixReader.as" mod="1398097633252" size="2786" optimizedsize="1698">
+      <def id="com.google.zxing.datamatrix:DataMatrixReader" />
+      <pre id="com.google.zxing:Reader" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="com.google.zxing:NotFoundException" />
+      <dep id="com.google.zxing:ResultMetadataType" />
+      <dep id="com.google.zxing:DecodeHintType" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:BinaryBitmap" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+      <dep id="com.google.zxing.datamatrix.decoder:Decoder" />
+      <dep id="com.google.zxing.common:DetectorResult" />
+      <dep id="com.google.zxing.datamatrix.detector:Detector" />
+      <dep id="com.google.zxing.common:DecoderResult" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\common\reedsolomon\ReedSolomonEncoder.as" mod="1398097633233" size="1907" optimizedsize="1115">
+      <def id="com.google.zxing.common.reedsolomon:ReedSolomonEncoder" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="com.google.zxing.common.flexdatatypes:Utils" />
+      <dep id="com.google.zxing.common.reedsolomon:GenericGF" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common.reedsolomon:GenericGFPoly" />
+      <dep id="com.google.zxing.common.flexdatatypes:ArrayList" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\common\reedsolomon\GF256Poly.as" mod="1398097633230" size="5073" optimizedsize="2663">
+      <def id="com.google.zxing.common.reedsolomon:GF256Poly" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common.reedsolomon:GF256" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\AddressBookParsedResult.as" mod="1398097633127" size="2512" optimizedsize="1095">
+      <def id="com.google.zxing.client.result:AddressBookParsedResult" />
+      <pre id="com.google.zxing.client.result:ParsedResult" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+      <dep id="com.google.zxing.client.result:ParsedResultType" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\rss\expanded\ExpandedPair.as" mod="1398097633329" size="1282" optimizedsize="572">
+      <def id="com.google.zxing.oned.rss.expanded:ExpandedPair" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.oned.rss:FinderPattern" />
+      <dep id="com.google.zxing.oned.rss:DataCharacter" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\AbstractDoCoMoResultParser.as" mod="1398097633126" size="961" optimizedsize="460">
+      <def id="com.google.zxing.client.result:AbstractDoCoMoResultParser" />
+      <pre id="com.google.zxing.client.result:ResultParser" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\URLTOResultParser.as" mod="1398097633154" size="960" optimizedsize="550">
+      <def id="com.google.zxing.client.result:URLTOResultParser" />
+      <pre id="Object" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="com.google.zxing.common.flexdatatypes:Utils" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.client.result:URIParsedResult" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\multi\qrcode\detector\ModuleSizeComparator.as" mod="1398097633271" size="814" optimizedsize="446">
+      <def id="com.google.zxing.multi.qrcode.detector:ModuleSizeComparator" />
+      <pre id="com.google.zxing.common:Comparator" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.qrcode.detector:FinderPattern" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\common\flexdatatypes\ArrayList.as" mod="1398097633195" size="4270" optimizedsize="1729">
+      <def id="com.google.zxing.common.flexdatatypes:ArrayList" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.datamatrix.detector:ResultPointsAndTransitionsComparator" />
+      <dep id="com.google.zxing.qrcode.detector:FurthestFromAverageComparator" />
+      <dep id="com.google.zxing.qrcode.detector:CenterComparator" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\multi\qrcode\detector\MultiFinderPatternFinder.as" mod="1398097633272" size="4557" optimizedsize="2922">
+      <def id="com.google.zxing.multi.qrcode.detector:MultiFinderPatternFinder" />
+      <pre id="com.google.zxing.qrcode.detector:FinderPatternFinder" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="Math" />
+      <dep id="com.google.zxing:DecodeHintType" />
+      <dep id="com.google.zxing:ResultPointCallback" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+      <dep id="com.google.zxing.qrcode.detector:FinderPatternInfo" />
+      <dep id="com.google.zxing:ResultPoint" />
+      <dep id="com.google.zxing.multi.qrcode.detector:ModuleSizeComparator" />
+      <dep id="com.google.zxing:ReaderException" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.qrcode.detector:FinderPattern" />
+      <dep id="com.google.zxing.common:Collections" />
+      <dep id="com.google.zxing.common.flexdatatypes:ArrayList" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\optional\AddressBookAUResultParser.as" mod="1398097633178" size="1695" optimizedsize="1003">
+      <def id="com.google.zxing.client.result.optional:AddressBookAUResultParser" />
+      <pre id="com.google.zxing.client.result:ResultParser" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="com.google.zxing.client.result:AddressBookParsedResult" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common.flexdatatypes:ArrayList" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\OneDReader.as" mod="1398097633283" size="5038" optimizedsize="3457">
+      <def id="com.google.zxing.oned:OneDReader" />
+      <pre id="com.google.zxing:Reader" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:ResultMetadataType" />
+      <dep id="com.google.zxing:NotFoundException" />
+      <dep id="com.google.zxing:BinaryBitmap" />
+      <dep id="com.google.zxing:DecodeHintType" />
+      <dep id="Math" />
+      <dep id="com.google.zxing.common.flexdatatypes:Enumeration" />
+      <dep id="com.google.zxing.common:BitArray" />
+      <dep id="Error" />
+      <dep id="com.google.zxing:ResultPoint" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\rss\expanded\decoders\AI01decoder.as" mod="1398097633377" size="1828" optimizedsize="993">
+      <def id="com.google.zxing.oned.rss.expanded.decoders:AI01decoder" />
+      <pre id="com.google.zxing.oned.rss.expanded.decoders:AbstractExpandedDecoder" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common:BitArray" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\rss\Pair.as" mod="1398097633322" size="856" optimizedsize="404">
+      <def id="com.google.zxing.oned.rss:Pair" />
+      <pre id="com.google.zxing.oned.rss:DataCharacter" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.oned.rss:FinderPattern" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\aztec\detector\Detector.as" mod="1398097633125" size="10193" optimizedsize="6399">
+      <def id="com.google.zxing.aztec.detector:Detector" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.aztec:AztecDetectorResult" />
+      <dep id="com.google.zxing.aztec:Point" />
+      <dep id="com.google.zxing.common.reedsolomon:ReedSolomonException" />
+      <dep id="com.google.zxing.common.reedsolomon:GenericGF" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:NotFoundException" />
+      <dep id="Math" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+      <dep id="com.google.zxing.common.detector:WhiteRectangleDetector" />
+      <dep id="com.google.zxing:ResultPoint" />
+      <dep id="com.google.zxing.common:GridSampler" />
+      <dep id="com.google.zxing.common.reedsolomon:ReedSolomonDecoder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\common\flexdatatypes\Utils.as" mod="1398097633216" size="1224" optimizedsize="567">
+      <def id="com.google.zxing.common.flexdatatypes:Utils" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\detector\FinderPatternInfo.as" mod="1398097633466" size="1058" optimizedsize="483">
+      <def id="com.google.zxing.qrcode.detector:FinderPatternInfo" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.qrcode.detector:FinderPattern" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\ChecksumException.as" mod="1398097633114" size="601" optimizedsize="287">
+      <def id="com.google.zxing:ChecksumException" />
+      <pre id="com.google.zxing:ReaderException" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\aztec\Point.as" mod="1398097633123" size="581" optimizedsize="287">
+      <def id="com.google.zxing.aztec:Point" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:ResultPoint" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\common\ECI.as" mod="1398097633191" size="793" optimizedsize="450">
+      <def id="com.google.zxing.common:ECI" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common:CharacterSetECI" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\BufferedImageLuminanceSource.as" mod="1398231711594" size="2765" optimizedsize="1446">
+      <def id="com.google.zxing:BufferedImageLuminanceSource" />
+      <pre id="com.google.zxing:LuminanceSource" />
+      <dep id="flash.display:BitmapData" />
+      <dep id="AS3" />
+      <dep id="Error" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\optional\MobileTagTelResultParser.as" mod="1398097633181" size="1364" optimizedsize="888">
+      <def id="com.google.zxing.client.result.optional:MobileTagTelResultParser" />
+      <pre id="com.google.zxing.client.result.optional:AbstractMobileTagResultParser" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="com.google.zxing.common.flexdatatypes:Utils" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+      <dep id="com.google.zxing.client.result:TelParsedResult" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\ParsedResultType.as" mod="1398097633149" size="1165" optimizedsize="618">
+      <def id="com.google.zxing.client.result:ParsedResultType" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\BizcardResultParser.as" mod="1398097633128" size="1985" optimizedsize="1144">
+      <def id="com.google.zxing.client.result:BizcardResultParser" />
+      <pre id="com.google.zxing.client.result:AbstractDoCoMoResultParser" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="com.google.zxing.client.result:AddressBookParsedResult" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common.flexdatatypes:ArrayList" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\SMSMMSResultParser.as" mod="1398097633151" size="1668" optimizedsize="1032">
+      <def id="com.google.zxing.client.result:SMSMMSResultParser" />
+      <pre id="com.google.zxing.client.result:ResultParser" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="com.google.zxing.common.flexdatatypes:Utils" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.client.result:SMSParsedResult" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\QRCodeReader.as" mod="1398097633423" size="2909" optimizedsize="1758">
+      <def id="com.google.zxing.qrcode:QRCodeReader" />
+      <pre id="com.google.zxing:Reader" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="com.google.zxing:NotFoundException" />
+      <dep id="com.google.zxing:ResultMetadataType" />
+      <dep id="com.google.zxing:DecodeHintType" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+      <dep id="com.google.zxing.qrcode.decoder:Decoder" />
+      <dep id="com.google.zxing.qrcode.detector:Detector" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:BinaryBitmap" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+      <dep id="com.google.zxing.common:DetectorResult" />
+      <dep id="com.google.zxing.common:DecoderResult" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\common\reedsolomon\GenericGF.as" mod="1398097633231" size="3317" optimizedsize="1640">
+      <def id="com.google.zxing.common.reedsolomon:GenericGF" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="AS3" />
+      <dep id="Math" />
+      <dep id="com.google.zxing.common.reedsolomon:GenericGFPoly" />
+      <dep id="Error" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\UPCEReader.as" mod="1398097633318" size="3440" optimizedsize="2094">
+      <def id="com.google.zxing.oned:UPCEReader" />
+      <pre id="com.google.zxing.oned:UPCEANReader" />
+      <dep id="com.google.zxing:ReaderException" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:NotFoundException" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+      <dep id="com.google.zxing.common:BitArray" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\common\detector\MonochromeRectangleDetector.as" mod="1398097633194" size="3217" optimizedsize="1818">
+      <def id="com.google.zxing.common.detector:MonochromeRectangleDetector" />
+      <pre id="Object" />
+      <dep id="com.google.zxing:ReaderException" />
+      <dep id="AS3" />
+      <dep id="Math" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+      <dep id="com.google.zxing:ResultPoint" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\common\reedsolomon\ReedSolomonDecoder.as" mod="1398097633232" size="3551" optimizedsize="1927">
+      <def id="com.google.zxing.common.reedsolomon:ReedSolomonDecoder" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.reedsolomon:ReedSolomonException" />
+      <dep id="com.google.zxing.common.reedsolomon:GenericGF" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common.reedsolomon:GenericGFPoly" />
+    </script>
+    <script name="_7548c67bad130acffc71142c53c7c48cf1e9c99ed6436ca18c023d86071363f4_flash_display_Sprite.as" mod="1398254097442" size="1095" optimizedsize="562">
+      <def id="_7548c67bad130acffc71142c53c7c48cf1e9c99ed6436ca18c023d86071363f4_flash_display_Sprite" />
+      <pre id="flash.display:Sprite" />
+      <dep id="flash.system:Security" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\optional\MobileTagSimpleContactResultParser.as" mod="1398097633180" size="1716" optimizedsize="1053">
+      <def id="com.google.zxing.client.result.optional:MobileTagSimpleContactResultParser" />
+      <pre id="com.google.zxing.client.result.optional:AbstractMobileTagResultParser" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="com.google.zxing.client.result:AddressBookParsedResult" />
+      <dep id="com.google.zxing.common.flexdatatypes:Utils" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\datamatrix\decoder\DataBlock.as" mod="1398097633257" size="2292" optimizedsize="1221">
+      <def id="com.google.zxing.datamatrix.decoder:DataBlock" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.datamatrix.decoder:ECB" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="com.google.zxing.datamatrix.decoder:Version" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.datamatrix.decoder:ECBlocks" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\common\BitMatrix.as" mod="1398097633186" size="5015" optimizedsize="2756">
+      <def id="com.google.zxing.common:BitMatrix" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common:BitArray" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\GeoResultParser.as" mod="1398097633131" size="1410" optimizedsize="1029">
+      <def id="com.google.zxing.client.result:GeoResultParser" />
+      <pre id="com.google.zxing.client.result:ResultParser" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.client.result:GeoParsedResult" />
+      <dep id="Error" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\VEventResultParser.as" mod="1398097633176" size="1136" optimizedsize="676">
+      <def id="com.google.zxing.client.result:VEventResultParser" />
+      <pre id="com.google.zxing.client.result:ResultParser" />
+      <dep id="com.google.zxing.client.result:VCardResultParser" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="com.google.zxing.client.result:CalendarParsedResult" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\rss\expanded\decoders\GeneralAppIdDecoder.as" mod="1398097633382" size="8244" optimizedsize="4768">
+      <def id="com.google.zxing.oned.rss.expanded.decoders:GeneralAppIdDecoder" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="com.google.zxing.oned.rss.expanded.decoders:FieldParser" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.oned.rss.expanded.decoders:CurrentParsingState" />
+      <dep id="com.google.zxing.oned.rss.expanded.decoders:DecodedInformation" />
+      <dep id="com.google.zxing.oned.rss.expanded.decoders:DecodedChar" />
+      <dep id="com.google.zxing.oned.rss.expanded.decoders:DecodedNumeric" />
+      <dep id="com.google.zxing.common:BitArray" />
+      <dep id="com.google.zxing.oned.rss.expanded.decoders:BlockParsedResult" />
+      <dep id="Error" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\SMSParsedResult.as" mod="1398097633152" size="1676" optimizedsize="771">
+      <def id="com.google.zxing.client.result:SMSParsedResult" />
+      <pre id="com.google.zxing.client.result:ParsedResult" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+      <dep id="com.google.zxing.client.result:ParsedResultType" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\UPCEANWriter.as" mod="1398097633318" size="1903" optimizedsize="1084">
+      <def id="com.google.zxing.oned:UPCEANWriter" />
+      <pre id="com.google.zxing:Writer" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing.oned:UPCEANReader" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+      <dep id="Math" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\common\flexdatatypes\StringBuilder.as" mod="1398097633216" size="2860" optimizedsize="1297">
+      <def id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+      <pre id="Object" />
+      <dep id="com.google.zxing:ReaderException" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\decoder\DataMask001.as" mod="1398097633427" size="557" optimizedsize="277">
+      <def id="com.google.zxing.qrcode.decoder:DataMask001" />
+      <pre id="com.google.zxing.qrcode.decoder:DataMaskBase" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\common\DefaultGridSampler.as" mod="1398097633190" size="1965" optimizedsize="1263">
+      <def id="com.google.zxing.common:DefaultGridSampler" />
+      <pre id="com.google.zxing.common:GridSampler" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:NotFoundException" />
+      <dep id="com.google.zxing.common:PerspectiveTransform" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+      <dep id="Error" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\optional\MobileTagSimpleCalendarResultParser.as" mod="1398097633180" size="1881" optimizedsize="1152">
+      <def id="com.google.zxing.client.result.optional:MobileTagSimpleCalendarResultParser" />
+      <pre id="com.google.zxing.client.result.optional:AbstractMobileTagResultParser" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="com.google.zxing.common.flexdatatypes:Utils" />
+      <dep id="com.google.zxing.client.result:CalendarParsedResult" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\rss\expanded\decoders\BlockParsedResult.as" mod="1398097633379" size="925" optimizedsize="405">
+      <def id="com.google.zxing.oned.rss.expanded.decoders:BlockParsedResult" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.oned.rss.expanded.decoders:DecodedInformation" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\decoder\Decoder.as" mod="1398097633433" size="3146" optimizedsize="2321">
+      <def id="com.google.zxing.qrcode.decoder:Decoder" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing.common:zxingByteArray" />
+      <dep id="com.google.zxing.qrcode.decoder:BitMatrixParser" />
+      <dep id="com.google.zxing.common.reedsolomon:GenericGF" />
+      <dep id="com.google.zxing.qrcode.decoder:DataBlock" />
+      <dep id="Math" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+      <dep id="Error" />
+      <dep id="com.google.zxing.common.reedsolomon:ReedSolomonDecoder" />
+      <dep id="com.google.zxing:ReaderException" />
+      <dep id="com.google.zxing.common.reedsolomon:ReedSolomonException" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.qrcode.decoder:Version" />
+      <dep id="com.google.zxing.qrcode.decoder:DecodedBitStreamParser" />
+      <dep id="com.google.zxing.qrcode.decoder:ErrorCorrectionLevel" />
+      <dep id="com.google.zxing.common:DecoderResult" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\optional\NDEFSmartPosterResultParser.as" mod="1398097633182" size="1934" optimizedsize="1287">
+      <def id="com.google.zxing.client.result.optional:NDEFSmartPosterResultParser" />
+      <pre id="com.google.zxing.client.result.optional:AbstractNDEFResultParser" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="com.google.zxing.client.result.optional:NDEFSmartPosterParsedResult" />
+      <dep id="com.google.zxing.client.result.optional:NDEFURIResultParser" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.client.result.optional:NDEFTextResultParser" />
+      <dep id="com.google.zxing.client.result.optional:NDEFRecord" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\Reader.as" mod="1398097633118" size="541" optimizedsize="259">
+      <def id="com.google.zxing:Reader" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:BinaryBitmap" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\decoder\DataMask000.as" mod="1398097633427" size="559" optimizedsize="279">
+      <def id="com.google.zxing.qrcode.decoder:DataMask000" />
+      <pre id="com.google.zxing.qrcode.decoder:DataMaskBase" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\MultiFormatWriter.as" mod="1398097633117" size="1276" optimizedsize="909">
+      <def id="com.google.zxing:MultiFormatWriter" />
+      <pre id="com.google.zxing:Writer" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing.oned:EAN8Writer" />
+      <dep id="com.google.zxing.pdf417.encoder:PDF417Writer" />
+      <dep id="com.google.zxing.oned:ITFWriter" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="com.google.zxing.oned:EAN13Writer" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.oned:UPCAWriter" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+      <dep id="com.google.zxing.oned:Code39Writer" />
+      <dep id="com.google.zxing.qrcode:QRCodeWriter" />
+      <dep id="com.google.zxing.oned:Code128Writer" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\Binarizer.as" mod="1398097633112" size="1019" optimizedsize="535">
+      <def id="com.google.zxing:Binarizer" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:LuminanceSource" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+      <dep id="com.google.zxing.common:BitArray" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\decoder\Version.as" mod="1398097633437" size="9684" optimizedsize="6501">
+      <def id="com.google.zxing.qrcode.decoder:Version" />
+      <pre id="Object" />
+      <dep id="com.google.zxing:ReaderException" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.qrcode.decoder:FormatInformation" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+      <dep id="com.google.zxing.qrcode.decoder:ECBlocks" />
+      <dep id="com.google.zxing.qrcode.decoder:ErrorCorrectionLevel" />
+      <dep id="com.google.zxing.qrcode.decoder:ECB" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\Result.as" mod="1398097633119" size="2442" optimizedsize="1391">
+      <def id="com.google.zxing:Result" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="Date" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:ResultMetadataType" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+      <dep id="Math" />
+      <dep id="com.google.zxing.common.flexdatatypes:Enumeration" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\rss\expanded\decoders\DecodedInformation.as" mod="1398097633380" size="1143" optimizedsize="503">
+      <def id="com.google.zxing.oned.rss.expanded.decoders:DecodedInformation" />
+      <pre id="com.google.zxing.oned.rss.expanded.decoders:DecodedObject" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\GeoParsedResult.as" mod="1398097633130" size="1443" optimizedsize="706">
+      <def id="com.google.zxing.client.result:GeoParsedResult" />
+      <pre id="com.google.zxing.client.result:ParsedResult" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+      <dep id="com.google.zxing.client.result:ParsedResultType" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\multi\ByQuadrantReader.as" mod="1398097633268" size="1411" optimizedsize="795">
+      <def id="com.google.zxing.multi:ByQuadrantReader" />
+      <pre id="com.google.zxing:Reader" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing:ReaderException" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:BinaryBitmap" />
+      <dep id="Math" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\decoder\ECBlocks.as" mod="1398097633434" size="1214" optimizedsize="578">
+      <def id="com.google.zxing.qrcode.decoder:ECBlocks" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.qrcode.decoder:ECB" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\pdf417\decoder\DecodedBitStreamParser.as" mod="1398097633386" size="9469" optimizedsize="5820">
+      <def id="com.google.zxing.pdf417.decoder:DecodedBitStreamParser" />
+      <pre id="Object" />
+      <dep id="com.google.zxing:ReaderException" />
+      <dep id="AS3" />
+      <dep id="Math" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+      <dep id="com.google.zxing.common:DecoderResult" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\decoder\ECB.as" mod="1398097633433" size="699" optimizedsize="317">
+      <def id="com.google.zxing.qrcode.decoder:ECB" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\detector\Detector.as" mod="1398097633465" size="6777" optimizedsize="3517">
+      <def id="com.google.zxing.qrcode.detector:Detector" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing:NotFoundException" />
+      <dep id="Math" />
+      <dep id="com.google.zxing:DecodeHintType" />
+      <dep id="com.google.zxing.qrcode.detector:FinderPatternFinder" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+      <dep id="com.google.zxing:ResultPointCallback" />
+      <dep id="com.google.zxing.qrcode.detector:AlignmentPattern" />
+      <dep id="com.google.zxing.qrcode.detector:FinderPatternInfo" />
+      <dep id="com.google.zxing:ResultPoint" />
+      <dep id="com.google.zxing:ReaderException" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.qrcode.detector:FinderPattern" />
+      <dep id="com.google.zxing.qrcode.decoder:Version" />
+      <dep id="com.google.zxing.qrcode.detector:AlignmentPatternFinder" />
+      <dep id="com.google.zxing.common:PerspectiveTransform" />
+      <dep id="com.google.zxing.common:DetectorResult" />
+      <dep id="com.google.zxing.common:GridSampler" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\optional\AbstractMobileTagResultParser.as" mod="1398097633177" size="1716" optimizedsize="956">
+      <def id="com.google.zxing.client.result.optional:AbstractMobileTagResultParser" />
+      <pre id="com.google.zxing.client.result:ResultParser" />
+      <dep id="com.google.zxing.common.flexdatatypes:Utils" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\UPCEANExtensionSupport.as" mod="1398097633317" size="3927" optimizedsize="2286">
+      <def id="com.google.zxing.oned:UPCEANExtensionSupport" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="com.google.zxing.oned:UPCEANReader" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:ResultMetadataType" />
+      <dep id="com.google.zxing:NotFoundException" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+      <dep id="com.google.zxing.common:BitArray" />
+      <dep id="com.google.zxing:ResultPoint" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\ITFWriter.as" mod="1398097633280" size="1405" optimizedsize="948">
+      <def id="com.google.zxing.oned:ITFWriter" />
+      <pre id="com.google.zxing.oned:UPCEANWriter" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.oned:ITFReader" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\common\HybridBinarizer.as" mod="1398097633192" size="3438" optimizedsize="1870">
+      <def id="com.google.zxing.common:HybridBinarizer" />
+      <pre id="com.google.zxing.common:GlobalHistogramBinarizer" />
+      <dep id="com.google.zxing:Binarizer" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:LuminanceSource" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\detector\FinderPatternFinder.as" mod="1398097633466" size="9241" optimizedsize="5234">
+      <def id="com.google.zxing.qrcode.detector:FinderPatternFinder" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:NotFoundException" />
+      <dep id="com.google.zxing.qrcode.detector:FinderPattern" />
+      <dep id="com.google.zxing:DecodeHintType" />
+      <dep id="Math" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+      <dep id="com.google.zxing:ResultPointCallback" />
+      <dep id="com.google.zxing.qrcode.detector:FinderPatternInfo" />
+      <dep id="com.google.zxing:ResultPoint" />
+      <dep id="com.google.zxing.common.flexdatatypes:ArrayList" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\datamatrix\decoder\Version.as" mod="1398097633263" size="3928" optimizedsize="2249">
+      <def id="com.google.zxing.datamatrix.decoder:Version" />
+      <pre id="Object" />
+      <dep id="com.google.zxing:ReaderException" />
+      <dep id="com.google.zxing.datamatrix.decoder:ECB" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.datamatrix.decoder:ECBlocks" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\rss\DataCharacter.as" mod="1398097633319" size="729" optimizedsize="326">
+      <def id="com.google.zxing.oned.rss:DataCharacter" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\common\Collections.as" mod="1398097633188" size="944" optimizedsize="535">
+      <def id="com.google.zxing.common:Collections" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common:Comparator" />
+      <dep id="com.google.zxing.common.flexdatatypes:ArrayList" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\decoder\DataMask111.as" mod="1398097633431" size="574" optimizedsize="294">
+      <def id="com.google.zxing.qrcode.decoder:DataMask111" />
+      <pre id="com.google.zxing.qrcode.decoder:DataMaskBase" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\encoder\MaskUtil.as" mod="1398097633470" size="3969" optimizedsize="2491">
+      <def id="com.google.zxing.qrcode.encoder:MaskUtil" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common:ByteMatrix" />
+      <dep id="com.google.zxing.qrcode.encoder:QRCode" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="AS3" />
+      <dep id="Math" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\ReaderException.as" mod="1398097633118" size="587" optimizedsize="275">
+      <def id="com.google.zxing:ReaderException" />
+      <pre id="Error" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\ResultPoint.as" mod="1398097633120" size="2056" optimizedsize="1054">
+      <def id="com.google.zxing:ResultPoint" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="Math" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\rss\expanded\decoders\AI01AndOtherAIs.as" mod="1398097633376" size="1278" optimizedsize="798">
+      <def id="com.google.zxing.oned.rss.expanded.decoders:AI01AndOtherAIs" />
+      <pre id="com.google.zxing.oned.rss.expanded.decoders:AI01decoder" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common:BitArray" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\common\DetectorResult.as" mod="1398097633190" size="720" optimizedsize="324">
+      <def id="com.google.zxing.common:DetectorResult" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\datamatrix\decoder\Decoder.as" mod="1398097633261" size="2627" optimizedsize="1681">
+      <def id="com.google.zxing.datamatrix.decoder:Decoder" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.datamatrix.decoder:DecodedBitStreamParser" />
+      <dep id="com.google.zxing:ReaderException" />
+      <dep id="com.google.zxing.datamatrix.decoder:DataBlock" />
+      <dep id="com.google.zxing.common.reedsolomon:ReedSolomonException" />
+      <dep id="com.google.zxing.datamatrix.decoder:Version" />
+      <dep id="com.google.zxing.common.reedsolomon:GenericGF" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+      <dep id="Error" />
+      <dep id="com.google.zxing.common:DecoderResult" />
+      <dep id="com.google.zxing.common.reedsolomon:ReedSolomonDecoder" />
+      <dep id="com.google.zxing.datamatrix.decoder:BitMatrixParser" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\maxicode\decoder\BitMatrixParser.as" mod="1398097633266" size="3876" optimizedsize="3380">
+      <def id="com.google.zxing.maxicode.decoder:BitMatrixParser" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\pdf417\encoder\BarcodeMatrix.as" mod="1398097633388" size="2018" optimizedsize="941">
+      <def id="com.google.zxing.pdf417.encoder:BarcodeMatrix" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.pdf417.encoder:BarcodeRow" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\EANManufacturerOrgSupport.as" mod="1398097633279" size="3356" optimizedsize="2302">
+      <def id="com.google.zxing.oned:EANManufacturerOrgSupport" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common.flexdatatypes:ArrayList" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\MultiFormatOneDReader.as" mod="1398097633281" size="2358" optimizedsize="1779">
+      <def id="com.google.zxing.oned:MultiFormatOneDReader" />
+      <pre id="com.google.zxing.oned:OneDReader" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="com.google.zxing.oned:MultiFormatUPCEANReader" />
+      <dep id="com.google.zxing.oned:Code93Reader" />
+      <dep id="com.google.zxing.oned.rss.expanded:RSSExpandedReader" />
+      <dep id="com.google.zxing.oned:ITFReader" />
+      <dep id="com.google.zxing:DecodeHintType" />
+      <dep id="com.google.zxing.common:BitArray" />
+      <dep id="com.google.zxing.oned.rss:RSS14Reader" />
+      <dep id="Error" />
+      <dep id="com.google.zxing:ReaderException" />
+      <dep id="com.google.zxing.oned:Code39Reader" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+      <dep id="com.google.zxing.oned:Code128Reader" />
+      <dep id="com.google.zxing.oned:CodaBarReader" />
+      <dep id="com.google.zxing.common.flexdatatypes:ArrayList" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\rss\expanded\decoders\AI013x0xDecoder.as" mod="1398097633376" size="1389" optimizedsize="943">
+      <def id="com.google.zxing.oned.rss.expanded.decoders:AI013x0xDecoder" />
+      <pre id="com.google.zxing.oned.rss.expanded.decoders:AI01weightDecoder" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:NotFoundException" />
+      <dep id="com.google.zxing.common:BitArray" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\TextParsedResult.as" mod="1398097633153" size="941" optimizedsize="423">
+      <def id="com.google.zxing.client.result:TextParsedResult" />
+      <pre id="com.google.zxing.client.result:ParsedResult" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.client.result:ParsedResultType" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\optional\NDEFRecord.as" mod="1398097633182" size="2135" optimizedsize="1108">
+      <def id="com.google.zxing.client.result.optional:NDEFRecord" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.client.result.optional:AbstractNDEFResultParser" />
+      <dep id="com.google.zxing.common.flexdatatypes:Utils" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\decoder\BitMatrixParser.as" mod="1398097633425" size="3309" optimizedsize="1983">
+      <def id="com.google.zxing.qrcode.decoder:BitMatrixParser" />
+      <pre id="Object" />
+      <dep id="com.google.zxing:ReaderException" />
+      <dep id="com.google.zxing.common:zxingByteArray" />
+      <dep id="com.google.zxing.qrcode.decoder:DataMask" />
+      <dep id="com.google.zxing.qrcode.decoder:DataMaskBase" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.qrcode.decoder:FormatInformation" />
+      <dep id="com.google.zxing.qrcode.decoder:Version" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\optional\NDEFSmartPosterParsedResult.as" mod="1398097633182" size="1512" optimizedsize="705">
+      <def id="com.google.zxing.client.result.optional:NDEFSmartPosterParsedResult" />
+      <pre id="com.google.zxing.client.result:ParsedResult" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.client.result:ParsedResultType" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\rss\expanded\RSSExpandedReader.as" mod="1398097633331" size="10933" optimizedsize="6495">
+      <def id="com.google.zxing.oned.rss.expanded:RSSExpandedReader" />
+      <pre id="com.google.zxing.oned.rss:AbstractRSSReader" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="com.google.zxing.oned.rss:RSSUtils" />
+      <dep id="com.google.zxing.oned.rss.expanded:BitArrayBuilder" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:NotFoundException" />
+      <dep id="com.google.zxing.oned.rss.expanded:ExpandedPair" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+      <dep id="com.google.zxing.oned.rss:FinderPattern" />
+      <dep id="com.google.zxing.oned.rss:DataCharacter" />
+      <dep id="com.google.zxing.common:BitArray" />
+      <dep id="com.google.zxing.common.flexdatatypes:ArrayList" />
+      <dep id="com.google.zxing.oned.rss.expanded.decoders:AbstractExpandedDecoder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\detector\FinderPattern.as" mod="1398097633465" size="1643" optimizedsize="742">
+      <def id="com.google.zxing.qrcode.detector:FinderPattern" />
+      <pre id="com.google.zxing:ResultPoint" />
+      <dep id="AS3" />
+      <dep id="Math" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\pdf417\decoder\BitMatrixParser.as" mod="1398097633385" size="28916" optimizedsize="27010">
+      <def id="com.google.zxing.pdf417.decoder:BitMatrixParser" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\datamatrix\detector\ResultPointsAndTransitions.as" mod="1398097633264" size="1210" optimizedsize="505">
+      <def id="com.google.zxing.datamatrix.detector:ResultPointsAndTransitions" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:ResultPoint" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\decoder\DecodedBitStreamParser.as" mod="1398097633432" size="5680" optimizedsize="3564">
+      <def id="com.google.zxing.qrcode.decoder:DecodedBitStreamParser" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing:FormatException" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.qrcode.decoder:Version" />
+      <dep id="com.google.zxing.common:CharacterSetECI" />
+      <dep id="com.google.zxing.qrcode.decoder:Mode" />
+      <dep id="com.google.zxing.qrcode.decoder:ErrorCorrectionLevel" />
+      <dep id="com.google.zxing.common:BitSource" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+      <dep id="com.google.zxing.common.flexdatatypes:ArrayList" />
+      <dep id="com.google.zxing.common:DecoderResult" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\common\reedsolomon\GenericGFPoly.as" mod="1398097633232" size="4716" optimizedsize="2392">
+      <def id="com.google.zxing.common.reedsolomon:GenericGFPoly" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="com.google.zxing.common.flexdatatypes:Utils" />
+      <dep id="com.google.zxing.common.reedsolomon:GenericGF" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\ParsedResult.as" mod="1398097633132" size="1311" optimizedsize="670">
+      <def id="com.google.zxing.client.result:ParsedResult" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+      <dep id="com.google.zxing.client.result:ParsedResultType" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\EAN13Reader.as" mod="1398097633277" size="2170" optimizedsize="1364">
+      <def id="com.google.zxing.oned:EAN13Reader" />
+      <pre id="com.google.zxing.oned:UPCEANReader" />
+      <dep id="com.google.zxing:ReaderException" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+      <dep id="com.google.zxing.common:BitArray" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\common\ByteMatrix.as" mod="1398097633188" size="2328" optimizedsize="1247">
+      <def id="com.google.zxing.common:ByteMatrix" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="Error" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\aztec\decoder\Decoder.as" mod="1398097633124" size="7808" optimizedsize="5274">
+      <def id="com.google.zxing.aztec.decoder:Decoder" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.aztec:AztecDetectorResult" />
+      <dep id="com.google.zxing:FormatException" />
+      <dep id="com.google.zxing.common.reedsolomon:ReedSolomonException" />
+      <dep id="com.google.zxing.common.reedsolomon:GenericGF" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+      <dep id="com.google.zxing.common.reedsolomon:ReedSolomonDecoder" />
+      <dep id="com.google.zxing.common:DecoderResult" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\EncodeHintType.as" mod="1398097633115" size="482" optimizedsize="236">
+      <def id="com.google.zxing:EncodeHintType" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\common\Comparator.as" mod="1398097633189" size="445" optimizedsize="187">
+      <def id="com.google.zxing.common:Comparator" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\DecodeHintType.as" mod="1398097633115" size="841" optimizedsize="472">
+      <def id="com.google.zxing:DecodeHintType" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\BinaryBitmap.as" mod="1398097633113" size="1705" optimizedsize="881">
+      <def id="com.google.zxing:BinaryBitmap" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="com.google.zxing:Binarizer" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:LuminanceSource" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+      <dep id="com.google.zxing.common:BitArray" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\common\LocalBlockBinarizer.as" mod="1398097633193" size="3525" optimizedsize="1794">
+      <def id="com.google.zxing.common:LocalBlockBinarizer" />
+      <pre id="com.google.zxing:Binarizer" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:LuminanceSource" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+      <dep id="com.google.zxing.common:BitArray" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\BarcodeFormat.as" mod="1398243202874" size="1649" optimizedsize="923">
+      <def id="com.google.zxing:BarcodeFormat" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\pdf417\encoder\PDF417HighLevelEncoder.as" mod="1398097633421" size="8046" optimizedsize="4403">
+      <def id="com.google.zxing.pdf417.encoder:PDF417HighLevelEncoder" />
+      <pre id="Object" />
+      <dep id="com.google.zxing:WriterException" />
+      <dep id="AS3" />
+      <dep id="Math" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\pdf417\encoder\PDF417.as" mod="1398097633389" size="21756" optimizedsize="19585">
+      <def id="com.google.zxing.pdf417.encoder:PDF417" />
+      <pre id="Object" />
+      <dep id="com.google.zxing:WriterException" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.pdf417.encoder:BarcodeRow" />
+      <dep id="com.google.zxing.pdf417.encoder:PDF417HighLevelEncoder" />
+      <dep id="Math" />
+      <dep id="com.google.zxing.pdf417.encoder:BarcodeMatrix" />
+      <dep id="com.google.zxing.pdf417.encoder:PDF417ErrorCorrection" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\common\PerspectiveTransform.as" mod="1398097633193" size="3034" optimizedsize="1543">
+      <def id="com.google.zxing.common:PerspectiveTransform" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\common\detector\WhiteRectangleDetector.as" mod="1398097633195" size="4361" optimizedsize="2222">
+      <def id="com.google.zxing.common.detector:WhiteRectangleDetector" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing:NotFoundException" />
+      <dep id="Math" />
+      <dep id="com.google.zxing.common:BitMatrix" />
+      <dep id="com.google.zxing:ResultPoint" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\pdf417\encoder\PDF417ErrorCorrection.as" mod="1398097633420" size="5047" optimizedsize="4141">
+      <def id="com.google.zxing.pdf417.encoder:PDF417ErrorCorrection" />
+      <pre id="Object" />
+      <dep id="com.google.zxing:WriterException" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\optional\AbstractNDEFResultParser.as" mod="1398097633177" size="1004" optimizedsize="606">
+      <def id="com.google.zxing.client.result.optional:AbstractNDEFResultParser" />
+      <pre id="com.google.zxing.client.result:ResultParser" />
+      <dep id="AS3" />
+      <dep id="Error" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\common\reedsolomon\GF256.as" mod="1398097633217" size="2410" optimizedsize="1248">
+      <def id="com.google.zxing.common.reedsolomon:GF256" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.reedsolomon:GF256Poly" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\ResultMetadataType.as" mod="1398097633119" size="1317" optimizedsize="728">
+      <def id="com.google.zxing:ResultMetadataType" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\decoder\DataMask.as" mod="1398097633426" size="1018" optimizedsize="668">
+      <def id="com.google.zxing.qrcode.decoder:DataMask" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.qrcode.decoder:DataMask011" />
+      <dep id="com.google.zxing.qrcode.decoder:DataMask010" />
+      <dep id="com.google.zxing.qrcode.decoder:DataMask110" />
+      <dep id="com.google.zxing.qrcode.decoder:DataMask111" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="com.google.zxing.qrcode.decoder:DataMaskBase" />
+      <dep id="com.google.zxing.qrcode.decoder:DataMask100" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.qrcode.decoder:DataMask000" />
+      <dep id="com.google.zxing.qrcode.decoder:DataMask001" />
+      <dep id="com.google.zxing.qrcode.decoder:DataMask101" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\decoder\Mode.as" mod="1398231701778" size="2649" optimizedsize="1552">
+      <def id="com.google.zxing.qrcode.decoder:Mode" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:IllegalArgumentException" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.qrcode.decoder:Version" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\VCardResultParser.as" mod="1398097633176" size="3401" optimizedsize="1920">
+      <def id="com.google.zxing.client.result:VCardResultParser" />
+      <pre id="com.google.zxing.client.result:ResultParser" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="com.google.zxing.client.result:AddressBookParsedResult" />
+      <dep id="com.google.zxing.common.flexdatatypes:Utils" />
+      <dep id="AS3" />
+      <dep id="mx.utils:StringUtil" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+      <dep id="com.google.zxing.common.flexdatatypes:ArrayList" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\client\result\ResultParser.as" mod="1398097633151" size="5492" optimizedsize="3074">
+      <def id="com.google.zxing.client.result:ResultParser" />
+      <pre id="Object" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing.client.result:VCardResultParser" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="com.google.zxing.client.result:AddressBookDocomoResultParser" />
+      <dep id="com.google.zxing.client.result:ProductResultParser" />
+      <dep id="mx.utils:StringUtil" />
+      <dep id="com.google.zxing.client.result:TextParsedResult" />
+      <dep id="com.google.zxing.client.result:URIResultParser" />
+      <dep id="com.google.zxing.client.result:BizcardResultParser" />
+      <dep id="com.google.zxing.client.result:ISBNResultParser" />
+      <dep id="com.google.zxing.common.flexdatatypes:StringBuilder" />
+      <dep id="com.google.zxing.client.result:GeoResultParser" />
+      <dep id="com.google.zxing.client.result:TelResultParser" />
+      <dep id="com.google.zxing.client.result:ParsedResult" />
+      <dep id="com.google.zxing.client.result:EmailAddressResultParser" />
+      <dep id="com.google.zxing.client.result:VEventResultParser" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.client.result:SMSMMSResultParser" />
+      <dep id="com.google.zxing.client.result:URLTOResultParser" />
+      <dep id="com.google.zxing.client.result:EmailDoCoMoResultParser" />
+      <dep id="com.google.zxing.client.result:BookmarkDoCoMoResultParser" />
+      <dep id="com.google.zxing.common.flexdatatypes:ArrayList" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\UPCAReader.as" mod="1398097633283" size="1876" optimizedsize="1160">
+      <def id="com.google.zxing.oned:UPCAReader" />
+      <pre id="com.google.zxing.oned:UPCEANReader" />
+      <dep id="com.google.zxing:ReaderException" />
+      <dep id="com.google.zxing.common.flexdatatypes:HashTable" />
+      <dep id="com.google.zxing:Result" />
+      <dep id="AS3" />
+      <dep id="com.google.zxing.oned:EAN13Reader" />
+      <dep id="com.google.zxing:BinaryBitmap" />
+      <dep id="com.google.zxing:BarcodeFormat" />
+      <dep id="com.google.zxing.common:BitArray" />
+      <dep id="Error" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\oned\rss\expanded\decoders\DecodedChar.as" mod="1398097633380" size="864" optimizedsize="384">
+      <def id="com.google.zxing.oned.rss.expanded.decoders:DecodedChar" />
+      <pre id="com.google.zxing.oned.rss.expanded.decoders:DecodedObject" />
+      <dep id="AS3" />
+    </script>
+    <script name="C:\Users\yangboz\git\as3ZXing\src\com\google\zxing\qrcode\decoder\DataMask110.as" mod="1398097633430" size="587" optimizedsize="295">
+      <def id="com.google.zxing.qrcode.decoder:DataMask110" />
+      <pre id="com.google.zxing.qrcode.decoder:DataMaskBase" />
+      <dep id="AS3" />
+    </script>
+  </scripts>
+  <external-defs>
+    <ext id="AS3" />
+    <ext id="RangeError" />
+    <ext id="Math" />
+    <ext id="Date" />
+    <ext id="Error" />
+    <ext id="mx.utils:StringUtil" />
+    <ext id="flash.utils:ByteArray" />
+    <ext id="flash.system:Security" />
+    <ext id="flash.display:BitmapData" />
+    <ext id="Object" />
+    <ext id="flash.display:Sprite" />
+  </external-defs>
+</report>

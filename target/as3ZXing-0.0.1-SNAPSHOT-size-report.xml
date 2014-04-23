@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report>
+  <swf size="670549" compressedSize="330453">
+
+    <!-- Header data (SWF attributes, product info, markers, etc.) -->
+    <headerData totalSize="445">
+      <data type="metaData" size="343"/>
+      <data type="productInfo" size="28"/>
+      <data type="swfHeader" size="21"/>
+      <data type="debugID" size="18"/>
+      <data type="enableDebugger" size="16"/>
+      <data type="fileAttributes" size="6"/>
+      <data type="scriptLimits" size="6"/>
+      <data type="backgroundColor" size="5"/>
+      <data type="endMarker" size="2"/>
+    </headerData>
+
+    <!-- Cumulative frame size summary. -->
+    <frames totalSize="670104">
+      <frame size="670104" frame="1"/>
+    </frames>
+
+    <!-- Actionscript code and constant data. -->
+    <actionScript totalSize="670005">
+      <abc name="com/google/zxing/client/testClass" size="56877" frame="1"/>
+      <abc name="com/google/zxing/pdf417/decoder/BitMatrixParser" size="28974" frame="1"/>
+      <abc name="com/google/zxing/pdf417/encoder/PDF417" size="21805" frame="1"/>
+      <abc name="com/google/zxing/qrcode/encoder/Encoder" size="11583" frame="1"/>
+      <abc name="com/google/zxing/oned/rss/expanded/RSSExpandedReader" size="10996" frame="1"/>
+      <abc name="com/google/zxing/aztec/detector/Detector" size="10244" frame="1"/>
+      <abc name="com/google/zxing/qrcode/decoder/Version" size="9734" frame="1"/>
+      <abc name="com/google/zxing/pdf417/decoder/DecodedBitStreamParser" size="9534" frame="1"/>
+      <abc name="com/google/zxing/qrcode/detector/FinderPatternFinder" size="9304" frame="1"/>
+      <abc name="com/google/zxing/qrcode/encoder/MatrixUtil" size="9221" frame="1"/>
+      <abc name="com/google/zxing/oned/rss/RSS14Reader" size="8865" frame="1"/>
+      <abc name="com/google/zxing/oned/rss/expanded/decoders/GeneralAppIdDecoder" size="8318" frame="1"/>
+      <abc name="com/google/zxing/pdf417/encoder/PDF417HighLevelEncoder" size="8111" frame="1"/>
+      <abc name="com/google/zxing/datamatrix/decoder/DecodedBitStreamParser" size="7972" frame="1"/>
+      <abc name="com/google/zxing/aztec/decoder/Decoder" size="7857" frame="1"/>
+      <abc name="com/google/zxing/oned/Code128Reader" size="7485" frame="1"/>
+      <abc name="com/google/zxing/pdf417/detector/Detector" size="6947" frame="1"/>
+      <abc name="com/google/zxing/qrcode/detector/Detector" size="6829" frame="1"/>
+      <abc name="com/google/zxing/datamatrix/detector/Detector" size="6264" frame="1"/>
+      <abc name="com/google/zxing/datamatrix/decoder/BitMatrixParser" size="6245" frame="1"/>
+      <abc name="com/google/zxing/oned/UPCEANReader" size="6040" frame="1"/>
+      <abc name="com/google/zxing/oned/Code39Reader" size="5748" frame="1"/>
+      <abc name="com/google/zxing/qrcode/decoder/DecodedBitStreamParser" size="5745" frame="1"/>
+      <abc name="com/google/zxing/maxicode/decoder/DecodedBitStreamParser" size="5642" frame="1"/>
+      <abc name="com/google/zxing/client/result/ResultParser" size="5546" frame="1"/>
+      <abc name="com/google/zxing/oned/ITFReader" size="5203" frame="1"/>
+      <abc name="com/google/zxing/common/reedsolomon/GF256Poly" size="5129" frame="1"/>
+      <abc name="com/google/zxing/pdf417/encoder/PDF417ErrorCorrection" size="5111" frame="1"/>
+      <abc name="com/google/zxing/oned/OneDReader" size="5081" frame="1"/>
+      <abc name="com/google/zxing/common/BitMatrix" size="5059" frame="1"/>
+      <abc name="com/google/zxing/oned/Code93Reader" size="4953" frame="1"/>
+      <abc name="com/google/zxing/common/reedsolomon/GenericGFPoly" size="4776" frame="1"/>
+      <abc name="com/google/zxing/oned/rss/expanded/decoders/FieldParser" size="4727" frame="1"/>
+      <abc name="com/google/zxing/qrcode/encoder/QRCode" size="4654" frame="1"/>
+      <abc name="com/google/zxing/multi/qrcode/detector/MultiFinderPatternFinder" size="4631" frame="1"/>
+      <abc name="com/google/zxing/common/BitArray" size="4504" frame="1"/>
+      <abc name="com/google/zxing/common/detector/WhiteRectangleDetector" size="4427" frame="1"/>
+      <abc name="com/google/zxing/common/flexdatatypes/ArrayList" size="4328" frame="1"/>
+      <abc name="com/google/zxing/qrcode/detector/AlignmentPatternFinder" size="4235" frame="1"/>
+      <abc name="com/google/zxing/qrcode/encoder/MaskUtil" size="4020" frame="1"/>
+      <abc name="com/google/zxing/datamatrix/decoder/Version" size="3982" frame="1"/>
+      <abc name="com/google/zxing/oned/UPCEANExtensionSupport" size="3982" frame="1"/>
+      <abc name="com/google/zxing/maxicode/decoder/BitMatrixParser" size="3936" frame="1"/>
+      <abc name="com/google/zxing/oned/CodaBarReader" size="3909" frame="1"/>
+      <abc name="com/google/zxing/common/GlobalHistogramBinarizer" size="3664" frame="1"/>
+      <abc name="com/google/zxing/common/reedsolomon/ReedSolomonDecoder" size="3616" frame="1"/>
+      <abc name="com/google/zxing/common/LocalBlockBinarizer" size="3579" frame="1"/>
+      <abc name="com/google/zxing/common/HybridBinarizer" size="3488" frame="1"/>
+      <abc name="com/google/zxing/oned/UPCEReader" size="3483" frame="1"/>
+      <abc name="com/google/zxing/client/result/VCardResultParser" size="3460" frame="1"/>
+      <abc name="com/google/zxing/oned/EANManufacturerOrgSupport" size="3414" frame="1"/>
+      <abc name="com/google/zxing/oned/Code128Writer" size="3402" frame="1"/>
+      <abc name="com/google/zxing/common/GridSampler" size="3380" frame="1"/>
+      <abc name="com/google/zxing/common/reedsolomon/GenericGF" size="3373" frame="1"/>
+      <abc name="com/google/zxing/qrcode/decoder/BitMatrixParser" size="3367" frame="1"/>
+      <abc name="com/google/zxing/common/detector/MonochromeRectangleDetector" size="3288" frame="1"/>
+      <abc name="com/google/zxing/multi/GenericMultipleBarcodeReader" size="3199" frame="1"/>
+      <abc name="com/google/zxing/common/flexdatatypes/HashTable" size="3196" frame="1"/>
+      <abc name="com/google/zxing/qrcode/decoder/Decoder" size="3196" frame="1"/>
+      <abc name="com/google/zxing/pdf417/PDF417Reader" size="3193" frame="1"/>
+      <abc name="com/google/zxing/common/PerspectiveTransform" size="3089" frame="1"/>
+      <abc name="com/google/zxing/MultiFormatReader" size="3045" frame="1"/>
+      <abc name="com/google/zxing/qrcode/encoder/BitVector" size="2965" frame="1"/>
+      <abc name="com/google/zxing/qrcode/QRCodeReader" size="2956" frame="1"/>
+      <abc name="com/google/zxing/common/flexdatatypes/StringBuilder" size="2922" frame="1"/>
+      <abc name="com/google/zxing/qrcode/decoder/FormatInformation" size="2858" frame="1"/>
+      <abc name="com/google/zxing/datamatrix/DataMatrixReader" size="2841" frame="1"/>
+      <abc name="com/google/zxing/BufferedImageLuminanceSource" size="2821" frame="1"/>
+      <abc name="com/google/zxing/oned/rss/AbstractRSSReader" size="2810" frame="1"/>
+      <abc name="com/google/zxing/qrcode/decoder/Mode" size="2696" frame="1"/>
+      <abc name="com/google/zxing/datamatrix/decoder/Decoder" size="2681" frame="1"/>
+      <abc name="com/google/zxing/oned/rss/RSSUtils" size="2671" frame="1"/>
+      <abc name="com/google/zxing/client/result/AddressBookParsedResult" size="2577" frame="1"/>
+      <abc name="com/google/zxing/oned/rss/expanded/decoders/AI013x0x1xDecoder" size="2515" frame="1"/>
+      <abc name="com/google/zxing/Result" size="2476" frame="1"/>
+      <abc name="com/google/zxing/common/reedsolomon/GF256" size="2462" frame="1"/>
+      <abc name="com/google/zxing/pdf417/decoder/Decoder" size="2448" frame="1"/>
+      <abc name="com/google/zxing/oned/MultiFormatOneDReader" size="2412" frame="1"/>
+      <abc name="com/google/zxing/client/result/CalendarParsedResult" size="2394" frame="1"/>
+      <abc name="com/google/zxing/maxicode/decoder/Decoder" size="2382" frame="1"/>
+      <abc name="com/google/zxing/common/ByteMatrix" size="2373" frame="1"/>
+      <abc name="com/google/zxing/datamatrix/decoder/DataBlock" size="2348" frame="1"/>
+      <abc name="com/google/zxing/qrcode/QRCodeWriter" size="2339" frame="1"/>
+      <abc name="com/google/zxing/common/CharacterSetECI" size="2319" frame="1"/>
+      <abc name="com/google/zxing/qrcode/decoder/DataBlock" size="2309" frame="1"/>
+      <abc name="com/google/zxing/oned/EAN13Reader" size="2214" frame="1"/>
+      <abc name="com/google/zxing/pdf417/encoder/PDF417Writer" size="2209" frame="1"/>
+      <abc name="com/google/zxing/maxicode/MaxiCodeReader" size="2207" frame="1"/>
+      <abc name="com/google/zxing/client/result/URIParsedResult" size="2197" frame="1"/>
+      <abc name="com/google/zxing/client/result/optional/NDEFRecord" size="2196" frame="1"/>
+      <abc name="com/google/zxing/common/zxingByteArray" size="2135" frame="1"/>
+      <abc name="com/google/zxing/ResultPoint" size="2095" frame="1"/>
+      <abc name="com/google/zxing/pdf417/encoder/BarcodeMatrix" size="2074" frame="1"/>
+      <abc name="com/google/zxing/client/result/EmailDoCoMoResultParser" size="2061" frame="1"/>
+      <abc name="com/google/zxing/oned/EAN13Writer" size="2056" frame="1"/>
+      <abc name="com/google/zxing/oned/MultiFormatUPCEANReader" size="2055" frame="1"/>
+      <abc name="com/google/zxing/LuminanceSource" size="2047" frame="1"/>
+      <abc name="com/google/zxing/client/result/optional/NDEFURIResultParser" size="2046" frame="1"/>
+      <abc name="com/google/zxing/client/result/BizcardResultParser" size="2046" frame="1"/>
+      <abc name="com/google/zxing/common/DefaultGridSampler" size="2018" frame="1"/>
+      <abc name="com/google/zxing/client/result/optional/NDEFSmartPosterResultParser" size="2012" frame="1"/>
+      <abc name="com/google/zxing/oned/rss/expanded/decoders/AbstractExpandedDecoder" size="1974" frame="1"/>
+      <abc name="com/google/zxing/common/reedsolomon/ReedSolomonEncoder" size="1972" frame="1"/>
+      <abc name="com/google/zxing/client/result/optional/MobileTagSimpleCalendarResultParser" size="1967" frame="1"/>
+      <abc name="com/google/zxing/oned/UPCEANWriter" size="1948" frame="1"/>
+      <abc name="com/google/zxing/oned/UPCAReader" size="1919" frame="1"/>
+      <abc name="com/google/zxing/multi/qrcode/QRCodeMultiReader" size="1912" frame="1"/>
+      <abc name="com/google/zxing/oned/rss/expanded/decoders/AI01decoder" size="1894" frame="1"/>
+      <abc name="com/google/zxing/oned/Code39Writer" size="1847" frame="1"/>
+      <abc name="com/google/zxing/oned/EAN8Writer" size="1803" frame="1"/>
+      <abc name="com/google/zxing/client/result/optional/MobileTagSimpleContactResultParser" size="1801" frame="1"/>
+      <abc name="com/google/zxing/client/result/optional/AbstractMobileTagResultParser" size="1796" frame="1"/>
+      <abc name="com/google/zxing/client/result/optional/MobileTagSimpleWebResultParser" size="1782" frame="1"/>
+      <abc name="com/google/zxing/client/result/optional/AddressBookAUResultParser" size="1771" frame="1"/>
+      <abc name="com/google/zxing/oned/rss/expanded/decoders/AI01393xDecoder" size="1763" frame="1"/>
+      <abc name="com/google/zxing/oned/rss/expanded/decoders/DecodedNumeric" size="1758" frame="1"/>
+      <abc name="com/google/zxing/BinaryBitmap" size="1745" frame="1"/>
+      <abc name="com/google/zxing/qrcode/decoder/ErrorCorrectionLevel" size="1734" frame="1"/>
+      <abc name="com/google/zxing/client/result/SMSParsedResult" size="1733" frame="1"/>
+      <abc name="com/google/zxing/client/result/SMSMMSResultParser" size="1728" frame="1"/>
+      <abc name="com/google/zxing/oned/EAN8Reader" size="1727" frame="1"/>
+      <abc name="com/google/zxing/client/result/optional/NDEFTextResultParser" size="1704" frame="1"/>
+      <abc name="com/google/zxing/client/result/AddressBookDocomoResultParser" size="1704" frame="1"/>
+      <abc name="com/google/zxing/qrcode/detector/FinderPattern" size="1700" frame="1"/>
+      <abc name="com/google/zxing/BarcodeFormat" size="1690" frame="1"/>
+      <abc name="com/google/zxing/aztec/AztecReader" size="1686" frame="1"/>
+      <abc name="com/google/zxing/multi/qrcode/detector/MultiDetector" size="1625" frame="1"/>
+      <abc name="com/google/zxing/oned/rss/expanded/decoders/CurrentParsingState" size="1613" frame="1"/>
+      <abc name="com/google/zxing/oned/rss/expanded/decoders/AI01weightDecoder" size="1612" frame="1"/>
+      <abc name="com/google/zxing/client/result/optional/MobileTagRichWebParsedResult" size="1598" frame="1"/>
+      <abc name="com/google/zxing/client/result/optional/NDEFSmartPosterParsedResult" size="1590" frame="1"/>
+      <abc name="com/google/zxing/oned/rss/expanded/decoders/AI01392xDecoder" size="1588" frame="1"/>
+      <abc name="com/google/zxing/client/result/EmailAddressParsedResult" size="1560" frame="1"/>
+      <abc name="com/google/zxing/common/BitSource" size="1513" frame="1"/>
+      <abc name="com/google/zxing/client/result/GeoParsedResult" size="1500" frame="1"/>
+      <abc name="com/google/zxing/client/result/optional/MobileTagRichWebResultParser" size="1497" frame="1"/>
+      <abc name="com/google/zxing/pdf417/encoder/BarcodeRow" size="1496" frame="1"/>
+      <abc name="com/google/zxing/client/result/GeoResultParser" size="1467" frame="1"/>
+      <abc name="com/google/zxing/multi/ByQuadrantReader" size="1461" frame="1"/>
+      <abc name="com/google/zxing/client/result/optional/MobileTagSMSResultParser" size="1461" frame="1"/>
+      <abc name="com/google/zxing/oned/rss/expanded/decoders/AI013x0xDecoder" size="1459" frame="1"/>
+      <abc name="com/google/zxing/oned/ITFWriter" size="1447" frame="1"/>
+      <abc name="com/google/zxing/client/result/optional/MobileTagMMSResultParser" size="1444" frame="1"/>
+      <abc name="com/google/zxing/client/result/optional/MobileTagTelResultParser" size="1439" frame="1"/>
+      <abc name="com/google/zxing/oned/rss/expanded/BitArrayBuilder" size="1386" frame="1"/>
+      <abc name="com/google/zxing/client/result/ParsedResult" size="1365" frame="1"/>
+      <abc name="com/google/zxing/ResultMetadataType" size="1363" frame="1"/>
+      <abc name="com/google/zxing/oned/rss/expanded/decoders/AI01AndOtherAIs" size="1348" frame="1"/>
+      <abc name="com/google/zxing/client/result/EmailAddressResultParser" size="1344" frame="1"/>
+      <abc name="com/google/zxing/oned/rss/expanded/ExpandedPair" size="1340" frame="1"/>
+      <abc name="com/google/zxing/client/result/BookmarkDoCoMoResultParser" size="1322" frame="1"/>
+      <abc name="com/google/zxing/MultiFormatWriter" size="1321" frame="1"/>
+      <abc name="com/google/zxing/datamatrix/detector/ResultPointsAndTransitions" size="1284" frame="1"/>
+      <abc name="com/google/zxing/common/flexdatatypes/Utils" size="1278" frame="1"/>
+      <abc name="com/google/zxing/oned/UPCAWriter" size="1265" frame="1"/>
+      <abc name="com/google/zxing/qrcode/decoder/ECBlocks" size="1265" frame="1"/>
+      <abc name="com/google/zxing/client/result/TelParsedResult" size="1264" frame="1"/>
+      <abc name="com/google/zxing/common/DecoderResult" size="1264" frame="1"/>
+      <abc name="com/google/zxing/client/result/ProductResultParser" size="1241" frame="1"/>
+      <abc name="com/google/zxing/client/result/ParsedResultType" size="1223" frame="1"/>
+      <abc name="com/google/zxing/qrcode/detector/AlignmentPattern" size="1216" frame="1"/>
+      <abc name="com/google/zxing/oned/rss/expanded/decoders/DecodedInformation" size="1216" frame="1"/>
+      <abc name="com/google/zxing/client/result/URIResultParser" size="1200" frame="1"/>
+      <abc name="com/google/zxing/client/result/VEventResultParser" size="1196" frame="1"/>
+      <abc name="_7548c67bad130acffc71142c53c7c48cf1e9c99ed6436ca18c023d86071363f4_flash_display_Sprite" size="1192" frame="1"/>
+      <abc name="com/google/zxing/oned/rss/expanded/decoders/AI01320xDecoder" size="1192" frame="1"/>
+      <abc name="com/google/zxing/oned/rss/expanded/decoders/AI013103decoder" size="1144" frame="1"/>
+      <abc name="com/google/zxing/qrcode/detector/FinderPatternInfo" size="1119" frame="1"/>
+      <abc name="com/google/zxing/common/flexdatatypes/Enumeration" size="1119" frame="1"/>
+      <abc name="com/google/zxing/client/result/ProductParsedResult" size="1099" frame="1"/>
+      <abc name="com/google/zxing/client/result/optional/AbstractNDEFResultParser" size="1079" frame="1"/>
+      <abc name="com/google/zxing/aztec/AztecDetectorResult" size="1071" frame="1"/>
+      <abc name="com/google/zxing/qrcode/decoder/DataMask" size="1069" frame="1"/>
+      <abc name="com/google/zxing/qrcode/detector/FurthestFromAverageComparator" size="1069" frame="1"/>
+      <abc name="com/google/zxing/Binarizer" size="1056" frame="1"/>
+      <abc name="com/google/zxing/oned/rss/FinderPattern" size="1052" frame="1"/>
+      <abc name="com/google/zxing/oned/rss/expanded/decoders/AnyAIDecoder" size="1049" frame="1"/>
+      <abc name="com/google/zxing/client/result/TelResultParser" size="1043" frame="1"/>
+      <abc name="com/google/zxing/qrcode/detector/CenterComparator" size="1042" frame="1"/>
+      <abc name="com/google/zxing/client/result/AbstractDoCoMoResultParser" size="1029" frame="1"/>
+      <abc name="com/google/zxing/client/result/URLTOResultParser" size="1019" frame="1"/>
+      <abc name="com/google/zxing/client/result/TextParsedResult" size="999" frame="1"/>
+      <abc name="com/google/zxing/oned/rss/expanded/decoders/BlockParsedResult" size="997" frame="1"/>
+      <abc name="com/google/zxing/common/Collections" size="990" frame="1"/>
+      <abc name="com/google/zxing/client/result/ISBNResultParser" size="983" frame="1"/>
+      <abc name="com/google/zxing/qrcode/detector/ClosestToAverageComparator" size="949" frame="1"/>
+      <abc name="com/google/zxing/oned/rss/expanded/decoders/DecodedChar" size="930" frame="1"/>
+      <abc name="com/google/zxing/oned/rss/Pair" size="897" frame="1"/>
+      <abc name="com/google/zxing/datamatrix/detector/ResultPointsAndTransitionsComparator" size="885" frame="1"/>
+      <abc name="com/google/zxing/multi/qrcode/detector/ModuleSizeComparator" size="884" frame="1"/>
+      <abc name="com/google/zxing/DecodeHintType" size="883" frame="1"/>
+      <abc name="com/google/zxing/qrcode/decoder/DataMaskBase" size="881" frame="1"/>
+      <abc name="com/google/zxing/datamatrix/decoder/ECBlocks" size="876" frame="1"/>
+      <abc name="com/google/zxing/qrcode/encoder/BlockPair" size="876" frame="1"/>
+      <abc name="com/google/zxing/client/result/ISBNParsedResult" size="844" frame="1"/>
+      <abc name="com/google/zxing/common/ECI" size="831" frame="1"/>
+      <abc name="com/google/zxing/oned/rss/DataCharacter" size="779" frame="1"/>
+      <abc name="com/google/zxing/datamatrix/decoder/ECB" size="774" frame="1"/>
+      <abc name="com/google/zxing/common/DetectorResult" size="769" frame="1"/>
+      <abc name="com/google/zxing/oned/rss/expanded/decoders/DecodedObject" size="756" frame="1"/>
+      <abc name="com/google/zxing/qrcode/decoder/ECB" size="745" frame="1"/>
+      <abc name="com/google/zxing/multi/MultipleBarcodeReader" size="681" frame="1"/>
+      <abc name="com/google/zxing/NotFoundException" size="651" frame="1"/>
+      <abc name="com/google/zxing/common/flexdatatypes/IllegalArgumentException" size="648" frame="1"/>
+      <abc name="com/google/zxing/ChecksumException" size="646" frame="1"/>
+      <abc name="com/google/zxing/qrcode/decoder/DataMask110" size="641" frame="1"/>
+      <abc name="com/google/zxing/qrcode/decoder/DataMask101" size="638" frame="1"/>
+      <abc name="com/google/zxing/ReaderException" size="630" frame="1"/>
+      <abc name="com/google/zxing/FormatException" size="629" frame="1"/>
+      <abc name="com/google/zxing/qrcode/decoder/DataMask111" size="628" frame="1"/>
+      <abc name="com/google/zxing/qrcode/decoder/DataMask100" size="624" frame="1"/>
+      <abc name="com/google/zxing/aztec/Point" size="620" frame="1"/>
+      <abc name="com/google/zxing/qrcode/decoder/DataMask011" size="618" frame="1"/>
+      <abc name="com/google/zxing/qrcode/decoder/DataMask010" size="616" frame="1"/>
+      <abc name="com/google/zxing/qrcode/decoder/DataMask000" size="613" frame="1"/>
+      <abc name="com/google/zxing/qrcode/decoder/DataMask001" size="611" frame="1"/>
+      <abc name="com/google/zxing/common/reedsolomon/ReedSolomonException" size="608" frame="1"/>
+      <abc name="com/google/zxing/Reader" size="575" frame="1"/>
+      <abc name="com/google/zxing/ResultPointCallback" size="556" frame="1"/>
+      <abc name="com/google/zxing/Writer" size="538" frame="1"/>
+      <abc name="com/google/zxing/EncodeHintType" size="524" frame="1"/>
+      <abc name="com/google/zxing/common/Comparator" size="490" frame="1"/>
+      <abc name="com/google/zxing/WriterException" size="486" frame="1"/>
+      <abc name="com/google/zxing/ClassImportor" size="426" frame="1"/>
+    </actionScript>
+
+    <!-- Additional frame tags (symbolClass, exportAssets, showFrame, etc). -->
+    <frameData totalSize="99">
+      <tag type="symbolClass" size="97" frame="1"/>
+      <tag type="showFrame" size="2" frame="1"/>
+    </frameData>
+  </swf>
+</report>
