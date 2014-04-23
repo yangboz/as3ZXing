@@ -20,7 +20,7 @@ import com.google.zxing.common.flexdatatypes.HashTable;
 
 /**
  * Represents a result that encodes an e-mail address, either as a plain address
- * like "joe@example.org" or a mailto: URL like "mailto:joe@example.org".
+ * like "joe(at)example.org" or a mailto: URL like "mailto:joe(at)example.org".
  *
  * @author Sean Owen
  */

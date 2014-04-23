@@ -1,0 +1,60 @@
+<project name="GODPAPER_as3ZXing_ASDOC"
+		 basedir="."
+		 default="docs">
+	<property name="FLEX_HOME"
+			  value="C:\Software\FLEX\sdks\4.6.0"/>
+	<property name="OUTPUT_DIR" 
+			  value="${basedir}/target/asdoc"/>
+	<taskdef resource="flexTasks.tasks"
+			 classpath="${FLEX_HOME}/ant/lib/flexTasks.jar"/>
+	<property name="flexlib" location="${FLEX_HOME}/frameworks"/>
+	
+	<target name="docs" depends="init">
+		<asdoc 
+			   window-title="GODPAPER as3ZXing Action Script API Document"
+			   main-title="GODPAPER as3ZXing"
+			   footer="Information on this site is by default visible to everyone within GODPAPER. Please ensure you apply appropriate access controls when posting GODPAPER Confidential information.Copyright © by GODPAPER. All material on this collaboration platform is the property of GODPAPER."
+			   output="${OUTPUT_DIR}" 
+			   failonerror="true"
+			   lenient="true"
+			   strict="false"
+			   report-invalid-styles-as-warnings="true"
+			   templates-path="${FLEX_HOME}\asdoc\templates"
+			   >
+			<!-- generate asdoc for all as/mxml files in the doc-sources -->
+			<doc-sources path-element="${basedir}/src/com/google/zxing/common/" />
+			<!-- source path for asdoc -->
+			<compiler.source-path path-element="${basedir}/src/"/>
+			<!--
+			<exclude-sources path="${basedir}/src\com\" />
+			-->
+			
+			<external-library-path dir="libs">
+				<include name="*.swc" />
+			</external-library-path>
+			
+			<external-library-path dir="${flexlib}/libs">
+		    	<include name="*.swc" />
+		    </external-library-path>
+			
+			<external-library-path dir="${flexlib}/libs">
+				<include name="air/*.swc" />
+		    </external-library-path>
+			
+			<define name="CONFIG::DEV" value="false"/>
+			<define name="CONFIG::LOGGING" value="false"/>
+			
+		</asdoc>
+
+	</target>
+	<target name="clean">
+		<delete includeEmptyDirs="true" failonerror="false">
+			<fileset dir="${OUTPUT_DIR}" includes="**/*"/>
+		</delete>
+	</target>
+	
+	<target name="init" depends="clean">
+        <mkdir dir="${OUTPUT_DIR}" />
+    </target>
+	
+</project>
